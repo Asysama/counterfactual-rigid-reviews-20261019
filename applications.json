@@ -1,0 +1,42 @@
+[
+  {
+    "generator_name": "counter_rotating_rollers_centering_response_reversal",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/726",
+    "head_sha": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+    "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/",
+    "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+    "self_check_complete": true
+  },
+  {
+    "generator_name": "arago_disk_magnetic_drag_reversal",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/727",
+    "head_sha": "9b869369282e10bf0a2499008af20eb1a7faa554",
+    "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/",
+    "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+    "self_check_complete": true
+  },
+  {
+    "generator_name": "slotted_link_lost_motion_premature_transfer",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/728",
+    "head_sha": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+    "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/",
+    "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+    "self_check_complete": true
+  },
+  {
+    "generator_name": "eccentric_weighted_wheel_unpowered_overclimb",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/729",
+    "head_sha": "3818be70cd34a4034def870d747c6d0dfbd7ff22",
+    "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/",
+    "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+    "self_check_complete": true
+  },
+  {
+    "generator_name": "sliding_supports_weighted_rod_balance_failure",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/730",
+    "head_sha": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+    "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/",
+    "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+    "self_check_complete": true
+  }
+]

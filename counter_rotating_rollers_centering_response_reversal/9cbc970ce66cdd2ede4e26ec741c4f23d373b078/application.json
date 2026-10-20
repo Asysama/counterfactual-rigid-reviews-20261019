@@ -1,0 +1,8 @@
+{
+  "generator_name": "counter_rotating_rollers_centering_response_reversal",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/726",
+  "head_sha": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+  "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/",
+  "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+  "self_check_complete": true
+}

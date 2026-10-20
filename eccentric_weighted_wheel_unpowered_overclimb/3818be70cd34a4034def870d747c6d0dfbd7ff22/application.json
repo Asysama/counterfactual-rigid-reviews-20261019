@@ -1,0 +1,8 @@
+{
+  "generator_name": "eccentric_weighted_wheel_unpowered_overclimb",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/729",
+  "head_sha": "3818be70cd34a4034def870d747c6d0dfbd7ff22",
+  "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/",
+  "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+  "self_check_complete": true
+}

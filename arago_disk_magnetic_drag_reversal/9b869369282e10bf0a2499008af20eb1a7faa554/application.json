@@ -1,0 +1,8 @@
+{
+  "generator_name": "arago_disk_magnetic_drag_reversal",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/727",
+  "head_sha": "9b869369282e10bf0a2499008af20eb1a7faa554",
+  "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/",
+  "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+  "self_check_complete": true
+}

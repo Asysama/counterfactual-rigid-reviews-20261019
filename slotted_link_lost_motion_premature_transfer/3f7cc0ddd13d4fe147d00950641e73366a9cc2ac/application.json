@@ -1,0 +1,8 @@
+{
+  "generator_name": "slotted_link_lost_motion_premature_transfer",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/728",
+  "head_sha": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+  "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/",
+  "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+  "self_check_complete": true
+}

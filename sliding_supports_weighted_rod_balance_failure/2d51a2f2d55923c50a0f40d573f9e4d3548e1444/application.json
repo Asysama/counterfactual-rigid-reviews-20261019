@@ -1,0 +1,8 @@
+{
+  "generator_name": "sliding_supports_weighted_rod_balance_failure",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/730",
+  "head_sha": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+  "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/",
+  "note": "Prepared for user review. Two native 2048x2048, 24fps, 120-frame cases, all four streams, exact-head provenance, independent mechanics/mask/decoded checks, 100k static scaling, controlled rendered diversity and recorded-state reproduction. No Sara application submitted.",
+  "self_check_complete": true
+}
