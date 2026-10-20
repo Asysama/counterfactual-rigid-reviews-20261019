@@ -1,0 +1,1 @@
+A horizontal rod with a fixed weight near one end rests on two identical support pads. The pads slowly slide toward each other. The rod adjusts through friction and the pads finish together beneath its shifted centre of mass, keeping the rod balanced.

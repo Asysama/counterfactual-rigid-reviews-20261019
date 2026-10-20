@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "all formal decoded frames, saved state and independent mechanics; visual review and identity replay separate",
+  "cases": [
+    {
+      "case_id": "arago_disk_magnetic_drag_reversal_00000042",
+      "head_sha": "9b869369282e10bf0a2499008af20eb1a7faa554",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 24,
+      "evidence": 41,
+      "mask_pixels_at_evidence": 40975,
+      "min_mask_pixels_active": 21388,
+      "minimum_adjacent_rgb_changed_pixels": 18141,
+      "mechanics": {
+        "independent_direction_and_torque_residual": true
+      }
+    },
+    {
+      "case_id": "arago_disk_magnetic_drag_reversal_00000098",
+      "head_sha": "9b869369282e10bf0a2499008af20eb1a7faa554",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 28,
+      "evidence": 43,
+      "mask_pixels_at_evidence": 29669,
+      "min_mask_pixels_active": 17285,
+      "minimum_adjacent_rgb_changed_pixels": 17795,
+      "mechanics": {
+        "independent_direction_and_torque_residual": true
+      }
+    }
+  ]
+}

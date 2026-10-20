@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "slotted_link_lost_motion_premature_transfer",
+  "case_set": "native-42-98-grounded-actuator",
+  "commit": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+  "artifact_count": 79,
+  "accepted_case_count": 2,
+  "failures": []
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "counter_rotating_rollers_centering_response_reversal",
+  "case_set": "native-42-98",
+  "commit": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+  "artifact_count": 79,
+  "accepted_case_count": 2,
+  "failures": []
+}

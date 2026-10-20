@@ -1,0 +1,1 @@
+A powered pin starts in the middle of a long open slot in a rail-guided frame. The pin travels through the empty slot while the frame stays at rest. Only after the pin reaches the slot end does it push the frame along its rails.

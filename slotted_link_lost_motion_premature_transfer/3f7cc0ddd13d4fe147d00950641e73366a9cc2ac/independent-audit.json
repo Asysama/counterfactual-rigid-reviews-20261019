@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "all formal decoded frames, saved state and independent mechanics; visual review and identity replay separate",
+  "cases": [
+    {
+      "case_id": "slotted_link_lost_motion_premature_transfer_00000042",
+      "head_sha": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 24,
+      "evidence": 32,
+      "mask_pixels_at_evidence": 84513,
+      "min_mask_pixels_active": 83761,
+      "minimum_adjacent_rgb_changed_pixels": 23791,
+      "mechanics": {
+        "unilateral_stop_and_contact_free_transfer": true
+      }
+    },
+    {
+      "case_id": "slotted_link_lost_motion_premature_transfer_00000098",
+      "head_sha": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 28,
+      "evidence": 36,
+      "mask_pixels_at_evidence": 74904,
+      "min_mask_pixels_active": 71261,
+      "minimum_adjacent_rgb_changed_pixels": 24986,
+      "mechanics": {
+        "unilateral_stop_and_contact_free_transfer": true
+      }
+    }
+  ]
+}

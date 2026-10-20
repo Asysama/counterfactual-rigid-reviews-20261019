@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "f1508528abe34e5540843292eb77039010dfd6d57b937a1910cb6e488ad0d9a7": {
+      "path": "arago_disk_magnetic_drag_reversal-runtime.json",
+      "sha256": "f1508528abe34e5540843292eb77039010dfd6d57b937a1910cb6e488ad0d9a7",
+      "generator": "arago_disk_magnetic_drag_reversal",
+      "case_set": "native-42-98-final-clamp",
+      "source_commit": "9b869369282e10bf0a2499008af20eb1a7faa554"
+    }
+  },
+  "cases": {
+    "arago_disk_magnetic_drag_reversal_00000042": {
+      "witness_id": "f1508528abe34e5540843292eb77039010dfd6d57b937a1910cb6e488ad0d9a7",
+      "metadata_path": "arago_disk_magnetic_drag_reversal_00000042/metadata.json",
+      "metadata_sha256": "f144f2022ec03f35376626dd8187dbe206527d70d7c4bf89b9def173c259a20d"
+    },
+    "arago_disk_magnetic_drag_reversal_00000098": {
+      "witness_id": "f1508528abe34e5540843292eb77039010dfd6d57b937a1910cb6e488ad0d9a7",
+      "metadata_path": "arago_disk_magnetic_drag_reversal_00000098/metadata.json",
+      "metadata_sha256": "698584a4f473d6bf438a0dbf2c6fab26d9e74e432cf30818db62ea75a5b73fd7"
+    }
+  },
+  "failures": []
+}

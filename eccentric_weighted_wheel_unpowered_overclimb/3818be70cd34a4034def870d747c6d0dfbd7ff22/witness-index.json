@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "877bbf938f976318c7252da3e64e2ae73e1400045de1bb44a84accdc74a1a226": {
+      "path": "eccentric_weighted_wheel_unpowered_overclimb-runtime.json",
+      "sha256": "877bbf938f976318c7252da3e64e2ae73e1400045de1bb44a84accdc74a1a226",
+      "generator": "eccentric_weighted_wheel_unpowered_overclimb",
+      "case_set": "native-42-98",
+      "source_commit": "3818be70cd34a4034def870d747c6d0dfbd7ff22"
+    }
+  },
+  "cases": {
+    "eccentric_weighted_wheel_unpowered_overclimb_00000042": {
+      "witness_id": "877bbf938f976318c7252da3e64e2ae73e1400045de1bb44a84accdc74a1a226",
+      "metadata_path": "eccentric_weighted_wheel_unpowered_overclimb_00000042/metadata.json",
+      "metadata_sha256": "de9f1b5d62a184f4a6b6d0cc2ab5f953be1135b4d469fc1b5c7c02f57c1dcc9c"
+    },
+    "eccentric_weighted_wheel_unpowered_overclimb_00000098": {
+      "witness_id": "877bbf938f976318c7252da3e64e2ae73e1400045de1bb44a84accdc74a1a226",
+      "metadata_path": "eccentric_weighted_wheel_unpowered_overclimb_00000098/metadata.json",
+      "metadata_sha256": "ac35e351a38b33673aca383b2a69601921100cdce1527fc167078b126ff9bdfb"
+    }
+  },
+  "failures": []
+}

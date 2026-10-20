@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "comparison": "all four streams, exact 120 raw and decoded frame hashes",
+  "source_case": "counter_rotating_rollers_centering_response_reversal_00000042",
+  "reproduced_case": "counter_rotating_rollers_centering_response_reversal_00000042"
+}

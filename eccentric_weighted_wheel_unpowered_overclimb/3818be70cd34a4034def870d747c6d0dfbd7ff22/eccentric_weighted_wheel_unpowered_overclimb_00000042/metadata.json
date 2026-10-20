@@ -1,0 +1,162 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.10000000149011612,
+      0.0,
+      0.8899999856948853
+    ],
+    "pos": [
+      -0.3448556363582611,
+      -8.5,
+      3.9499998092651367
+    ],
+    "projection": "perspective"
+  },
+  "category": "eccentric_weighted_wheel",
+  "descriptions": {
+    "counterfactual": "A wheel with a visible fixed off-centre metal weight is released from rest on a gentle incline. The wheel initially rolls uphill while its combined centre of mass descends. Without a drive, it continues uphill beyond its passive turning range, raising its combined centre of mass above its release height.",
+    "true": "A wheel with a visible fixed off-centre metal weight is released from rest on a gentle incline. The wheel initially rolls uphill while its combined centre of mass descends. It reaches a turning point and rolls back toward a lower-energy position."
+  },
+  "evidence_frame": 79,
+  "first_changed_frame": 52,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench stored-state replay",
+    "git": "3818be70cd34a4034def870d747c6d0dfbd7ff22",
+    "motion_authority": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+    "source_hashes": {
+      "engine/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "engine/geometry.py": "3993ed21626b19ad94bc99fe105a70818b63d6292bf22f9f33f2ec935f4b134b",
+      "engine/media.py": "15f64f5bf7beeb21363e29cdf5a872338dec1d7f932bca1cee2619b239eff133",
+      "engine/operators.py": "d01167fe493628a15910565e904a6921c4fcdbf80aba7802fb02c90586256a30",
+      "engine/run.py": "5523028649ec4fd0ca98f07ad9944bb2e0814c4e7c282387948e2d715d4663a5",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "f3a029114b1f1f9a0654c83353330f2fc97d692e26c8ca2eac8345f5fd368540",
+      "src/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "src/helpers.py": "bc7f4fb8a75d68ab426173c7cadc460e5c3354d619497f599bf4930edb94df0b",
+      "src/phenomenon.py": "51f02e069558c5b6c2886a31d70d8b6cc14a4ea11d1f22dd8bad67e4e30d4d01",
+      "src/scaling.py": "3d13d17cff3a9f3419bac690dc97054a774adcb3d1ad23c2b7f21d9db95b81e1",
+      "src/violation.py": "b45d15d7436a4b7e0920eca787e744281b746c4ea8474517666f70ce35a4f277",
+      "src/visual.py": "815d963f6c363bcf1075dbe62880f83206e58c7b79ded992200b1b459c0bbf28",
+      "tests/test_design.py": "22946463f0dc48db10065c36fd08ea4b54b6cd53e8637c30e59206a6020c24e5"
+    }
+  },
+  "intervention_frame": 52,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "target_axle",
+      "target_ballast_bracket",
+      "target_ballast_mount",
+      "target_fixed_ballast",
+      "target_rubber_tread",
+      "target_spoke_0",
+      "target_spoke_1",
+      "target_spoke_2",
+      "target_spoke_3",
+      "target_spoke_4",
+      "target_spoke_5",
+      "target_wheel_rim"
+    ],
+    "target_ontology": [
+      "the rigid wheel, fixed ballast, spokes, axle and painted marks"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 52,
+  "onset_frame": 52,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_unpowered_uphill_servo_torque/mask.mp4",
+      "mask_overlay": "counterfactual_unpowered_uphill_servo_torque/mask_overlay.mp4",
+      "prompt": "counterfactual_unpowered_uphill_servo_torque/prompt.txt",
+      "trajectory": "counterfactual_unpowered_uphill_servo_torque/trajectory.npz",
+      "video": "counterfactual_unpowered_uphill_servo_torque/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "eccentric_weighted_wheel_unpowered_overclimb",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 3,
+      "ballast_mass": 3.5839999999999996,
+      "ballast_offset": 0.29329822222222224,
+      "ballast_radius": 0.07086400000000001,
+      "ballast_thickness": 0.02912542019769111,
+      "camera_elevation_ratio": 0.36,
+      "damping": 1.009363005696,
+      "depth": 1.03,
+      "eccentricity": 0.2451447827529022,
+      "gravity": 9.81,
+      "inertia_centre": 0.419170448924337,
+      "initial_phase": 0.7205555555555555,
+      "initial_s": -1.45,
+      "length": 1.28,
+      "mass": 4.287999999999999,
+      "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+      "onset": 23,
+      "radius": 0.4429,
+      "response": 0.9099999999999999,
+      "rim_mass": 0.7040000000000001,
+      "servo_gain": 7.0,
+      "servo_speed": 1.04,
+      "slope": 0.10055555555555555,
+      "solver_steps_per_frame": 40,
+      "time_scale": 1.0,
+      "view": 4
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "A wheel with a visible fixed off-centre metal weight is released from rest on a gentle incline. The wheel initially rolls uphill while its combined centre of mass descends. It reaches a turning point and rolls back toward a lower-energy position.",
+        "A wheel with a visible fixed off-centre metal weight is released from rest on a gentle incline. The wheel initially rolls uphill while its combined centre of mass descends. Without a drive, it continues uphill beyond its passive turning range, raising its combined centre of mass above its release height."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "A wheel with a visible fixed off-centre metal weight is released from rest on a gentle incline. The wheel initially rolls uphill while its combined centre of mass descends. It reaches a turning point and rolls back toward a lower-energy position."
+        ],
+        "violation_if_true": [
+          "A wheel with a visible fixed off-centre metal weight is released from rest on a gentle incline. The wheel initially rolls uphill while its combined centre of mass descends. Without a drive, it continues uphill beyond its passive turning range, raising its combined centre of mass above its release height."
+        ]
+      },
+      "violation_types": [
+        "unpowered_uphill_servo_torque"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "eccentric_weighted_wheel_unpowered_overclimb_00000042",
+  "timebase": {
+    "internal_dt": 0.0010416666666666667,
+    "internal_substeps": 40,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "unpowered_uphill_servo_torque"
+}

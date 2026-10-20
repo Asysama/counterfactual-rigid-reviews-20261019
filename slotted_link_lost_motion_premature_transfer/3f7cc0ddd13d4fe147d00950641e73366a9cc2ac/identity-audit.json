@@ -1,0 +1,426 @@
+{
+  "status": "PASS",
+  "scope": "all 120 native masks and both-branch target framing, independent name whitelist; shared source geometry replay",
+  "cases": [
+    {
+      "case_id": "slotted_link_lost_motion_premature_transfer_00000042",
+      "head_sha": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.24304085969924927,
+                0.3976931571960449
+              ],
+              [
+                0.5222834944725037,
+                0.5864853262901306
+              ]
+            ],
+            [
+              [
+                0.24304085969924927,
+                0.3976931571960449
+              ],
+              [
+                0.5222834944725037,
+                0.5864853262901306
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 24,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.24298055469989777,
+                0.39780038595199585
+              ],
+              [
+                0.5222108960151672,
+                0.5864883065223694
+              ]
+            ],
+            [
+              [
+                0.24332194030284882,
+                0.397810161113739
+              ],
+              [
+                0.5225459337234497,
+                0.5864953994750977
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 32,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.24296046793460846,
+                0.3978360593318939
+              ],
+              [
+                0.5221866369247437,
+                0.586489200592041
+              ]
+            ],
+            [
+              [
+                0.2677595615386963,
+                0.39854344725608826
+              ],
+              [
+                0.5465308427810669,
+                0.5869989395141602
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 33,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.2429579496383667,
+                0.39784038066864014
+              ],
+              [
+                0.5221836566925049,
+                0.5864892601966858
+              ]
+            ],
+            [
+              [
+                0.2731319069862366,
+                0.3987005650997162
+              ],
+              [
+                0.5518044829368591,
+                0.5871090888977051
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.46653249859809875,
+                0.4043995141983032
+              ],
+              [
+                0.7469015717506409,
+                0.5909546613693237
+              ]
+            ],
+            [
+              [
+                0.5446141362190247,
+                0.40678146481513977
+              ],
+              [
+                0.8337011933326721,
+                0.5926749110221863
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "slotted_link_lost_motion_premature_transfer_00000098",
+      "head_sha": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.26336219906806946,
+                0.40690502524375916
+              ],
+              [
+                0.501011073589325,
+                0.5962656736373901
+              ]
+            ],
+            [
+              [
+                0.26336219906806946,
+                0.40690502524375916
+              ],
+              [
+                0.501011073589325,
+                0.5962656736373901
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 28,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.26335570216178894,
+                0.4069262146949768
+              ],
+              [
+                0.5010873675346375,
+                0.5963276028633118
+              ]
+            ],
+            [
+              [
+                0.2637365460395813,
+                0.4068993926048279
+              ],
+              [
+                0.5014389753341675,
+                0.5963085293769836
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 36,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.2633538842201233,
+                0.4069320857524872
+              ],
+              [
+                0.5011091232299805,
+                0.5963451266288757
+              ]
+            ],
+            [
+              [
+                0.29035916924476624,
+                0.40502697229385376
+              ],
+              [
+                0.5260381102561951,
+                0.5949878692626953
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 37,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.2633535861968994,
+                0.4069332182407379
+              ],
+              [
+                0.5011118650436401,
+                0.5963477492332458
+              ]
+            ],
+            [
+              [
+                0.29610517621040344,
+                0.4046221077442169
+              ],
+              [
+                0.5313442945480347,
+                0.59470134973526
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_bearing_-1_-1",
+            "target_bearing_-1_1",
+            "target_bearing_1_-1",
+            "target_bearing_1_1",
+            "target_end_-1",
+            "target_end_1",
+            "target_foot_-1_-1",
+            "target_foot_-1_1",
+            "target_foot_1_-1",
+            "target_foot_1_1",
+            "target_side_-1",
+            "target_side_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.44122257828712463,
+                0.3941648304462433
+              ],
+              [
+                0.6654924154281616,
+                0.587401807308197
+              ]
+            ],
+            [
+              [
+                0.5045337080955505,
+                0.38959401845932007
+              ],
+              [
+                0.7276896238327026,
+                0.5841565728187561
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

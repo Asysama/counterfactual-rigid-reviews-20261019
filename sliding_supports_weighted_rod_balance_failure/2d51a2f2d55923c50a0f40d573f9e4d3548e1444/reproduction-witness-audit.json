@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "sliding_supports_weighted_rod_balance_failure",
+  "case_set": "recorded-state-reproduction-42",
+  "commit": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

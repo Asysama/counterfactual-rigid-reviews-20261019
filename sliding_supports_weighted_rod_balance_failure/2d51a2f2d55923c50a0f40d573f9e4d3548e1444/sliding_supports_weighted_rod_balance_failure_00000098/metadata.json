@@ -1,0 +1,153 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.10000000149011612,
+      0.0,
+      1.0499999523162842
+    ],
+    "pos": [
+      1.1237025260925293,
+      -8.399999618530273,
+      4.1579999923706055
+    ],
+    "projection": "perspective"
+  },
+  "category": "sliding_supports_weighted_rod",
+  "descriptions": {
+    "counterfactual": "A horizontal rod with a fixed weight near one end rests on two identical support pads. The pads slowly slide toward each other. Without an external push, the rod drifts away from its balancing position and tips down instead of remaining balanced above the closing pads.",
+    "true": "A horizontal rod with a fixed weight near one end rests on two identical support pads. The pads slowly slide toward each other. The rod adjusts through friction and the pads finish together beneath its shifted centre of mass, keeping the rod balanced."
+  },
+  "evidence_frame": 64,
+  "first_changed_frame": 37,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench stored-state replay",
+    "git": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+    "motion_authority": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+    "source_hashes": {
+      "engine/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "engine/geometry.py": "3993ed21626b19ad94bc99fe105a70818b63d6292bf22f9f33f2ec935f4b134b",
+      "engine/media.py": "15f64f5bf7beeb21363e29cdf5a872338dec1d7f932bca1cee2619b239eff133",
+      "engine/operators.py": "d01167fe493628a15910565e904a6921c4fcdbf80aba7802fb02c90586256a30",
+      "engine/run.py": "0e401276a5bb42abf034520a47c9fe679580baa3a099bd9f48e10d1d3c41ddb5",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "f3a029114b1f1f9a0654c83353330f2fc97d692e26c8ca2eac8345f5fd368540",
+      "src/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "src/helpers.py": "5ea5ec320bfebdb45b1812436afdd9554fa2e3645ff8cc3452e12352708253bb",
+      "src/phenomenon.py": "f5622f8654f727a080d9ca0e95aadac91127d31c118f1fb12ca16b16e2b139d3",
+      "src/scaling.py": "fda1dbc57831053bb3b258dd499bf916deab874993cab9078abaa9aa71bfe7ad",
+      "src/violation.py": "15ea2830bdc55cf6121b518e25fdd56036d53721a6ad75635675f19d9b9e4ec1",
+      "src/visual.py": "815d963f6c363bcf1075dbe62880f83206e58c7b79ded992200b1b459c0bbf28",
+      "tests/test_design.py": "22946463f0dc48db10065c36fd08ea4b54b6cd53e8637c30e59206a6020c24e5"
+    }
+  },
+  "intervention_frame": 28,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "target_fixed_weight",
+      "target_geometric_midpoint",
+      "target_rod"
+    ],
+    "target_ontology": [
+      "the rigid rod and its fixed end weight and markings"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 37,
+  "onset_frame": 28,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_unpowered_horizontal_force_during_support_closure/mask.mp4",
+      "mask_overlay": "counterfactual_unpowered_horizontal_force_during_support_closure/mask_overlay.mp4",
+      "prompt": "counterfactual_unpowered_horizontal_force_during_support_closure/prompt.txt",
+      "trajectory": "counterfactual_unpowered_horizontal_force_during_support_closure/trajectory.npz",
+      "video": "counterfactual_unpowered_horizontal_force_during_support_closure/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "sliding_supports_weighted_rod_balance_failure",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 8,
+      "camera_elevation_ratio": 0.37,
+      "close_seconds": 2.65,
+      "depth": 0.75,
+      "force": 8.862,
+      "friction": 0.72,
+      "gravity": 9.81,
+      "length": 1.04,
+      "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+      "onset": 27,
+      "pad_end": 0.075,
+      "pad_half_width": 0.072,
+      "pad_start": 0.9984,
+      "pad_top": 1.55,
+      "response": 1.12,
+      "rod_half_length": 1.716,
+      "rod_height": 0.1,
+      "rod_mass": 0.65,
+      "rod_width": 0.24,
+      "solver_steps_per_frame": 20,
+      "substeps": 20,
+      "time_scale": 1.0,
+      "view": 8,
+      "weight_mass": 0.6160000000000001,
+      "weight_radius": 0.09,
+      "weight_x": 1.25268
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "A horizontal rod with a fixed weight near one end rests on two identical support pads. The pads slowly slide toward each other. The rod adjusts through friction and the pads finish together beneath its shifted centre of mass, keeping the rod balanced.",
+        "A horizontal rod with a fixed weight near one end rests on two identical support pads. The pads slowly slide toward each other. Without an external push, the rod drifts away from its balancing position and tips down instead of remaining balanced above the closing pads."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "A horizontal rod with a fixed weight near one end rests on two identical support pads. The pads slowly slide toward each other. The rod adjusts through friction and the pads finish together beneath its shifted centre of mass, keeping the rod balanced."
+        ],
+        "violation_if_true": [
+          "A horizontal rod with a fixed weight near one end rests on two identical support pads. The pads slowly slide toward each other. Without an external push, the rod drifts away from its balancing position and tips down instead of remaining balanced above the closing pads."
+        ]
+      },
+      "violation_types": [
+        "unpowered_horizontal_force_during_support_closure"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+  "timebase": {
+    "internal_dt": 0.0020833333333333333,
+    "internal_substeps": 20,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "unpowered_horizontal_force_during_support_closure"
+}

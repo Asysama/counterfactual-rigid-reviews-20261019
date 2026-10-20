@@ -1,0 +1,525 @@
+{
+  "generator": "arago_disk_magnetic_drag_reversal",
+  "commit": "9b869369282e10bf0a2499008af20eb1a7faa554",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "baseline-true-35.png": "71b60a00e8d1c2d0b1560a88cb7b5065569686bdac9ad99dd43f8d2a5c68ee51",
+        "baseline-true-90.png": "404b9328520e934d0bfa2b52a07538c3667f293fc4c1406bdc72f2104947a33c",
+        "baseline-counterfactual-35.png": "eda8ae0e007d441681f6017f5cf56186689b01d4187d61e5e5fbd5550b1dc078",
+        "baseline-counterfactual-90.png": "0cf86871b80ef3de63be913d6ea33c7878a6db1771142fdea475bfaca3c0704d"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 0.82,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "length_low-true-35.png": "154698da0eae49178f44359f3044c07375e5af6a71227b257c048ab8a6e299b7",
+        "length_low-true-90.png": "98a6786791cec33ee13029d62de1265d77ef69ab52408c4598ae0612f941bc5c",
+        "length_low-counterfactual-35.png": "06c97daa33530981a64ec37dc87858652c7457c0afb694019cc60834e5abc84b",
+        "length_low-counterfactual-90.png": "43323d4ade3dae318d657659084d8d766390fc173098fa09fd5abaaaa253b558"
+      },
+      "metrics": {
+        "true-35": 1.5184908266420718,
+        "true-90": 1.5130620885778356,
+        "counterfactual-35": 1.520465992115162,
+        "counterfactual-90": 1.485089902524595
+      },
+      "changed_pixels": {
+        "true-35": 25315,
+        "true-90": 25206,
+        "counterfactual-35": 25322,
+        "counterfactual-90": 24756
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.1152,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "length_high-true-35.png": "916cb9834dfc4734d935bdfe9638236cb48b5332329d31d344c899b3f1182cf6",
+        "length_high-true-90.png": "27aa17b3817cef648144e0d8c8bed9c4dbda55b0ecd66146dc9ae0ab02212fd4",
+        "length_high-counterfactual-35.png": "ad58a8716a4e8bdb91672d2f5581ba9a46ade84ca86a68fb2cc6e9c36a2edf5b",
+        "length_high-counterfactual-90.png": "ff8ad56737d7b110cc2db6cc9224cd7cc3f18a78a9c22320429e85c9478c7d48"
+      },
+      "metrics": {
+        "true-35": 0.574788976598669,
+        "true-90": 0.5699146412037037,
+        "counterfactual-35": 0.5747793692129629,
+        "counterfactual-90": 0.5734213369864004
+      },
+      "changed_pixels": {
+        "true-35": 12826,
+        "true-90": 12730,
+        "counterfactual-35": 12818,
+        "counterfactual-90": 12788
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.029096950666666684,
+        "bearing_damping": 0.08729085200000004,
+        "drive_speed": 2.21,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "response_low-true-35.png": "416014c0dfa9cedd5ee691ae136d12ed5af70e98cf4687f8c87af827e8b7f8a9",
+        "response_low-true-90.png": "4bd3924216d1c8b5631037e28ae1ce6179d3a326b465f22d3ac30b1029b56062",
+        "response_low-counterfactual-35.png": "32a5b8280ce952b4f56274006f718d3e3cfb6fb1a1193e9e9176d87c75075494",
+        "response_low-counterfactual-90.png": "9e02aa61e2e273264ae595266e5623e8acdc780293e9ab7c123f66839f65821a"
+      },
+      "metrics": {
+        "true-35": 0.059144196686921294,
+        "true-90": 0.17602991174768517,
+        "counterfactual-35": 0.05821962709780092,
+        "counterfactual-90": 0.30274567780671297
+      },
+      "changed_pixels": {
+        "true-35": 4117,
+        "true-90": 4944,
+        "counterfactual-35": 4085,
+        "counterfactual-90": 6668
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.03833951146666669,
+        "bearing_damping": 0.11501853440000008,
+        "drive_speed": 2.9120000000000004,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "response_high-true-35.png": "4c3bc43b97005991ccff3e9acb3bbb6b240e9acdb9ddade9093aa301e7c95f3a",
+        "response_high-true-90.png": "1eca6abf1a4c78e11cb07d3474a051e23e02d54f7d3359173c16fabd9e709677",
+        "response_high-counterfactual-35.png": "d1f3a1e51c4d0987f7721110840f88427bacba9569354a6859cedff344c00ba4",
+        "response_high-counterfactual-90.png": "b51ebe28e14a2d5ee829f0f4d885c3bad47431fd0206a861dc572ed5837e8468"
+      },
+      "metrics": {
+        "true-35": 0.08800252278645833,
+        "true-90": 0.2845628526475694,
+        "counterfactual-35": 0.09399131492332176,
+        "counterfactual-90": 0.47662636085792826
+      },
+      "changed_pixels": {
+        "true-35": 5611,
+        "true-90": 6792,
+        "counterfactual-35": 5541,
+        "counterfactual-90": 9261
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "onset_low-true-35.png": "0a22948e9a6ef20b976e366e45d31f4af45f1a7ebb6927d019b195142d411558",
+        "onset_low-true-90.png": "ff886c293dfec453bd2a388a6e231bcee019e24eb97c4dbd29095651279c45f2",
+        "onset_low-counterfactual-35.png": "0f5da5a873b29809282ee330c4da8c951b4effd84ee33be9121faeaf6a9faa1a",
+        "onset_low-counterfactual-90.png": "2624b368c3adf6c4cf2cbcc25288e16fdf515a1766dc923aefac5c697a6e80f9"
+      },
+      "metrics": {
+        "true-35": 0.11441209581163195,
+        "true-90": 0.13774165400752314,
+        "counterfactual-35": 0.13257457591869212,
+        "counterfactual-90": 0.2209342673972801
+      },
+      "changed_pixels": {
+        "true-35": 5926,
+        "true-90": 4261,
+        "counterfactual-35": 6082,
+        "counterfactual-90": 6343
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "onset_high-true-35.png": "471eda4f283ec5f161ca1e4f98d5e2eb84441845decce4735fda0cce4cc9ee20",
+        "onset_high-true-90.png": "faba3eb0899fc11aaeb6c455260d76d352ec9d78a538957d830fced055bc912a",
+        "onset_high-counterfactual-35.png": "a07edfda512a3c20cf218bd931932b6d6879ffede140b63a2a1ff02b096ce48c",
+        "onset_high-counterfactual-90.png": "9002bff1394e2f0be0d7c9589d257c4aecb3fc47c9b3b485b5eff24eb7ba4fb4"
+      },
+      "metrics": {
+        "true-35": 0.1254566333912037,
+        "true-90": 0.20942235876012733,
+        "counterfactual-35": 0.13934778284143517,
+        "counterfactual-90": 0.4160342746310764
+      },
+      "changed_pixels": {
+        "true-35": 6229,
+        "true-90": 5362,
+        "counterfactual-35": 6336,
+        "counterfactual-90": 7517
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 0.8250000000000001,
+        "magnet_inertia": 0.011343750000000005,
+        "coupling": 0.016516500000000007,
+        "bearing_damping": 0.04954950000000002,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "depth_low-true-35.png": "c1e5cb9badd6123c5fcfc95e5ed7127e45868acb0f2fdd2fe237c5108b4d9fe0",
+        "depth_low-true-90.png": "c12ba6e3c4cb12089d9bfb66ea1d79c0914b9b2314ebd4b1aa8e076b1421869b",
+        "depth_low-counterfactual-35.png": "b1ed9403772a7e6b5b8b90e2223249f1da5d514522dd288b395f750bb98cd8e6",
+        "depth_low-counterfactual-90.png": "2097ea7c600c0aa8bdefab14ad182a96a5e56622cc2407bc1a1678fdb26325df"
+      },
+      "metrics": {
+        "true-35": 0.10327770091869214,
+        "true-90": 0.06965863263165509,
+        "counterfactual-35": 0.10193944860387731,
+        "counterfactual-90": 0.1175090648509838
+      },
+      "changed_pixels": {
+        "true-35": 2289,
+        "true-90": 1618,
+        "counterfactual-35": 2246,
+        "counterfactual-90": 2365
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.2210000000000003,
+        "magnet_inertia": 0.024847350000000015,
+        "coupling": 0.03617774160000002,
+        "bearing_damping": 0.10853322480000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "depth_high-true-35.png": "dd0dc7cc1c492608552510cfa5742a41a67ea4d5f1ddb541b8aac93e89cb9397",
+        "depth_high-true-90.png": "04c780bdad43df4cea5855b90b88e734137db90e9aa518d42569e59acca684a2",
+        "depth_high-counterfactual-35.png": "c9b41ad732d0bc9a03d194a338fb70e6d27a4877beeba56e5b08ecc3187d056e",
+        "depth_high-counterfactual-90.png": "5acdddf0237b04b5c9cb1401ad03750c76275d9dfe910ec6858276c61e4bfa04"
+      },
+      "metrics": {
+        "true-35": 0.04940513328269676,
+        "true-90": 0.04199501320167824,
+        "counterfactual-35": 0.04947803638599537,
+        "counterfactual-90": 0.06148048683449074
+      },
+      "changed_pixels": {
+        "true-35": 1101,
+        "true-90": 1141,
+        "counterfactual-35": 1061,
+        "counterfactual-90": 1292
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "appearance_low-true-35.png": "745c6bbb913b1debe9d391fd4aea139e5d02522eb0a0939e57e82b19a99a9fb6",
+        "appearance_low-true-90.png": "37c4dd557ee359846c9cd2c7fbd9edcbf49303da7a19dbb331c60c12a1031a6b",
+        "appearance_low-counterfactual-35.png": "fe83de71583781fe86990bb04187f384fac9b864b1dd8fb0e8d0684ce8268582",
+        "appearance_low-counterfactual-90.png": "3df738a55c747daf8c73341ba7facee6ab42b293dffe32ff96f4d5363baf32fd"
+      },
+      "metrics": {
+        "true-35": 0.5813248245804398,
+        "true-90": 0.5811846697771991,
+        "counterfactual-35": 0.5813248245804398,
+        "counterfactual-90": 0.5813118263527199
+      },
+      "changed_pixels": {
+        "true-35": 408539,
+        "true-90": 408418,
+        "counterfactual-35": 408539,
+        "counterfactual-90": 408529
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "appearance_high-true-35.png": "f8e1b38ca49cffe9cf8d91362fffcf3fd048de800a2ac66b804170d96ac8e5a5",
+        "appearance_high-true-90.png": "cbb4d3641af0a8357f610a4c65a354142c14a31e47da591e9d40c4593913e478",
+        "appearance_high-counterfactual-35.png": "3e4c87846eefa98ad23d8e25cb6d56acda58b74300a8c6fb97e869ef7514f448",
+        "appearance_high-counterfactual-90.png": "a299a9a6ebf2c54c09436f53ccff20f1028755b31668219a62a4c61c39f79ee1"
+      },
+      "metrics": {
+        "true-35": 0.01465804488570602,
+        "true-90": 0.01465465404369213,
+        "counterfactual-35": 0.01465804488570602,
+        "counterfactual-90": 0.014658610026041666
+      },
+      "changed_pixels": {
+        "true-35": 25937,
+        "true-90": 25931,
+        "counterfactual-35": 25937,
+        "counterfactual-90": 25938
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "view_low-true-35.png": "cb262c89165a6d017f8199bf8705308f5defbeebbca15121f8c4f199fbe11b67",
+        "view_low-true-90.png": "b4c99d325f0370c01f131d38824afce396d8d742bd7b83d10ab6ef2bf57cd0bd",
+        "view_low-counterfactual-35.png": "0fdb8a18037c247dbcc0862b14671ab809acbedced0b970dc6c7be11bca3cbb7",
+        "view_low-counterfactual-90.png": "7dae3fc8d4806059830e7a1e02297f28672eb9f2bb83c93cee92401c3917c837"
+      },
+      "metrics": {
+        "true-35": 5.554246690538195,
+        "true-90": 5.536397863317419,
+        "counterfactual-35": 5.545186360677083,
+        "counterfactual-90": 5.610476458514178
+      },
+      "changed_pixels": {
+        "true-35": 530623,
+        "true-90": 530484,
+        "counterfactual-35": 530605,
+        "counterfactual-90": 530313
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "disk_radius": 1.0495999999999999,
+        "magnet_length": 1.1330000000000002,
+        "magnet_inertia": 0.021394816666666677,
+        "coupling": 0.031150853066666682,
+        "bearing_damping": 0.09345255920000005,
+        "drive_speed": 2.3659999999999997,
+        "drive_ramp": 0.55,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+        "camera_elevation_ratio": 0.65
+      },
+      "images": {
+        "view_high-true-35.png": "9bd906b67a6565083228f3b45616f064f44745e76d55845ed6c3dd3cfdf44c1c",
+        "view_high-true-90.png": "7d2046a3b631e10c38b0c5e488b5168e15631396029dbec7a07fbb040332f596",
+        "view_high-counterfactual-35.png": "f6024f5cc0bbd683329d510c12107b8072011f9d6910924194bd2279f0ffb906",
+        "view_high-counterfactual-90.png": "6584d0eb7d0e0d168a0d75e07ca5eb8c7fd62b4b27f1e30929c8c59a71ff1f25"
+      },
+      "metrics": {
+        "true-35": 6.2068939208984375,
+        "true-90": 6.212208500614873,
+        "counterfactual-35": 6.203245940031828,
+        "counterfactual-90": 6.243389553493923
+      },
+      "changed_pixels": {
+        "true-35": 428624,
+        "true-90": 429003,
+        "counterfactual-35": 428780,
+        "counterfactual-90": 428534
+      }
+    }
+  }
+}

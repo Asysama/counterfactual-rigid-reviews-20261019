@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000042",
+    "seed": 42,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/eccentric_weighted_wheel_unpowered_overclimb_00000042/true/video_browser.mp4",
+    "browser_sha256": "4e528108a2910045a5be86b34ec80df27777a109c72ec7db189177b5b4d38d82",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/eccentric_weighted_wheel_unpowered_overclimb-3818be70cd34a4034def870d747c6d0dfbd7ff22-42-true.mp4",
+    "native_sha256": "8459a2d0740af5d89b34332ff05840ca23dc7232b58aec1ba1bf0293e920100d"
+  },
+  {
+    "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000042",
+    "seed": 42,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/eccentric_weighted_wheel_unpowered_overclimb_00000042/counterfactual_unpowered_uphill_servo_torque/video_browser.mp4",
+    "browser_sha256": "2a79fcfc6273854897a58fd4ec991911531df79c7ec4b52feb04d9ae6a53b75b",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/eccentric_weighted_wheel_unpowered_overclimb-3818be70cd34a4034def870d747c6d0dfbd7ff22-42-video.mp4",
+    "native_sha256": "33924ad5dcaeb52175470732f6911e74067668b145cee8bf94d58458828f1efb"
+  },
+  {
+    "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000042",
+    "seed": 42,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/eccentric_weighted_wheel_unpowered_overclimb_00000042/counterfactual_unpowered_uphill_servo_torque/mask_browser.mp4",
+    "browser_sha256": "1eab1a9834cb3b57b997a90075a6fbbc5f198462ce1c2e7c540ef87db459b939",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/eccentric_weighted_wheel_unpowered_overclimb-3818be70cd34a4034def870d747c6d0dfbd7ff22-42-mask.mp4",
+    "native_sha256": "b78b394e24f0e38d8f95debe2ec91981a8fef0a5ec162be1ea213231a66986a3"
+  },
+  {
+    "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000042",
+    "seed": 42,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/eccentric_weighted_wheel_unpowered_overclimb_00000042/counterfactual_unpowered_uphill_servo_torque/mask_overlay_browser.mp4",
+    "browser_sha256": "7767a362459692b413ce532e1a04379b11df7afac1613499ffa275f9a4ac76d2",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/eccentric_weighted_wheel_unpowered_overclimb-3818be70cd34a4034def870d747c6d0dfbd7ff22-42-mask_overlay.mp4",
+    "native_sha256": "aad3c7429b9b0dee12f650158c151184e72e6462c85864eb6ad5d24e67fd24b2"
+  },
+  {
+    "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000098",
+    "seed": 98,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/eccentric_weighted_wheel_unpowered_overclimb_00000098/true/video_browser.mp4",
+    "browser_sha256": "549f979c7dab49c8b69f822938e265f196cfe06f53a1bc261a89feca79fd22e9",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/eccentric_weighted_wheel_unpowered_overclimb-3818be70cd34a4034def870d747c6d0dfbd7ff22-98-true.mp4",
+    "native_sha256": "39b9e501f538f1572a29484d4dc7b6ba7a036838ce36bfa96167dd9c7e360493"
+  },
+  {
+    "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000098",
+    "seed": 98,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/eccentric_weighted_wheel_unpowered_overclimb_00000098/counterfactual_unpowered_uphill_servo_torque/video_browser.mp4",
+    "browser_sha256": "5413701831cd4a4ab0f1ba24b49aa94ca29d8d66e7d19322a7a35f4f3e0ef5e0",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/eccentric_weighted_wheel_unpowered_overclimb-3818be70cd34a4034def870d747c6d0dfbd7ff22-98-video.mp4",
+    "native_sha256": "07c2bdedb1a3b26baa43916edc7ff1a0321f0fb002c275c336f47cc6b891d689"
+  },
+  {
+    "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000098",
+    "seed": 98,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/eccentric_weighted_wheel_unpowered_overclimb_00000098/counterfactual_unpowered_uphill_servo_torque/mask_browser.mp4",
+    "browser_sha256": "adbd2ab3c93e755f6dbef1ec3a04fef498b31525195751b156f87bb2be2fe20a",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/eccentric_weighted_wheel_unpowered_overclimb-3818be70cd34a4034def870d747c6d0dfbd7ff22-98-mask.mp4",
+    "native_sha256": "ff023b7d0de92edd2d9dec9affdf64220c36a5d11ceb62f489ecff0ba6970d55"
+  },
+  {
+    "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000098",
+    "seed": 98,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/eccentric_weighted_wheel_unpowered_overclimb/3818be70cd34a4034def870d747c6d0dfbd7ff22/eccentric_weighted_wheel_unpowered_overclimb_00000098/counterfactual_unpowered_uphill_servo_torque/mask_overlay_browser.mp4",
+    "browser_sha256": "3077dd3253505e06a3727ae461054aac16f9d37f62148d8788cebb8aa390ba1e",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/eccentric_weighted_wheel_unpowered_overclimb-3818be70cd34a4034def870d747c6d0dfbd7ff22-98-mask_overlay.mp4",
+    "native_sha256": "c17862f28f954ade92db1bd8bf9db4d5c5bc18aad69a4afd7030fe1759645f50"
+  }
+]

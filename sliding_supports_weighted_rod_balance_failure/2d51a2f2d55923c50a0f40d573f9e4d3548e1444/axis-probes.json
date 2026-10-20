@@ -1,0 +1,629 @@
+{
+  "generator": "sliding_supports_weighted_rod_balance_failure",
+  "commit": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "baseline-true-35.png": "2af0961251ac4e5f4612e9850388b9092c48b6af068512f4334efb1dfc9c580e",
+        "baseline-true-90.png": "f1331b690ec0ab13b1d44b0fc212d6165daca98023dfeef817912245f7baf0db",
+        "baseline-counterfactual-35.png": "927946886941b898a3999d72b6b209b20a5320fe2f5ae5c76a8b4f9f0be3193a",
+        "baseline-counterfactual-90.png": "9e17dd382a67ba86e7e36be17a1888dc56cb1c277289402546a9fff55d3b40ae"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 1.65,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.2045,
+        "weight_radius": 0.1236,
+        "pad_start": 0.96,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "length_low-true-35.png": "0d60b5bf44669bcf137249fb6fceedbb41088c5c1982cad66339080d15259de2",
+        "length_low-true-90.png": "e18705c5d18c6c0329edd6a991fc7974d453b64f1efb9155e77d4e94373f046d",
+        "length_low-counterfactual-35.png": "60ddbf9f0ce545302c309a2c0e69860aecaacbccbc5bbc677d5af6ed03d7939a",
+        "length_low-counterfactual-90.png": "c1dd937aec9f543a4840a74f881d797306f5f344eb50fc9e45d9c963b2aeef95"
+      },
+      "metrics": {
+        "true-35": 0.568521570276331,
+        "true-90": 0.17865724916811343,
+        "counterfactual-35": 0.567880701135706,
+        "counterfactual-90": 0.5796926992910879
+      },
+      "changed_pixels": {
+        "true-35": 13372,
+        "true-90": 4546,
+        "counterfactual-35": 13358,
+        "counterfactual-90": 12753
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.244,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.63812,
+        "weight_radius": 0.1236,
+        "pad_start": 1.3056,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "length_high-true-35.png": "e77f74d6bdd2fa599c0d2593caa70153dec62928914b34c9878ce8e73b9d0f64",
+        "length_high-true-90.png": "7e409a7e2f2580fb8d2baf77a77d9128936c6e1fe19e045dcc07b1f9c8c50f34",
+        "length_high-counterfactual-35.png": "af8b3914bd294cdfd4f4157634f51888abe0b0e5bf460c72e9cd6c12b5f06a92",
+        "length_high-counterfactual-90.png": "dfecc8cee19df21b94436c50bbf24e2920d76465606fb524d07bdfce47315557"
+      },
+      "metrics": {
+        "true-35": 0.3267754448784722,
+        "true-90": 0.06149744104456018,
+        "counterfactual-35": 0.3268669976128472,
+        "counterfactual-90": 0.2775115966796875
+      },
+      "changed_pixels": {
+        "true-35": 8563,
+        "true-90": 1905,
+        "counterfactual-35": 8559,
+        "counterfactual-90": 10425
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.4675,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 7.822500000000002,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "response_low-true-35.png": "c3f7d8c1ec1f359f864d3b77c4d07a831e4ada7a0319ef4cb6983090c4586ae7",
+        "response_low-true-90.png": "607a1464eb113c5969684bb27d0e0ffb637bf3eefddfea9c4351a8addb2425c4",
+        "response_low-counterfactual-35.png": "5a7ed7d894686e415ac02bc4fd1410e408f009dc764a4eba3691d770be9a5764",
+        "response_low-counterfactual-90.png": "91b1b69d307ec64c4820713fdba089d1836ebd481524d25ac4f0b22bb1438383"
+      },
+      "metrics": {
+        "true-35": 0.0,
+        "true-90": 0.029671563042534724,
+        "counterfactual-35": 0.002154314959490741,
+        "counterfactual-90": 0.05535549587673611
+      },
+      "changed_pixels": {
+        "true-35": 0,
+        "true-90": 1170,
+        "counterfactual-35": 737,
+        "counterfactual-90": 5757
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.6160000000000001,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.862,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "response_high-true-35.png": "a5d1f7a50496e66a4cead84a977eb98bf45908ce4202e1332d80df705bb97d39",
+        "response_high-true-90.png": "b064b909c8e6252ec72e5a580baa428134a20bdafaf2120af90f9dac10d94e7a",
+        "response_high-counterfactual-35.png": "989646515902c66cdc1335690af8e97aac2327105bb650453f347b99f16ced93",
+        "response_high-counterfactual-90.png": "5fcad5bae9b31fd5e9c6ccbcbcb76860eb90daad5869b94ec98fe7328cb34905"
+      },
+      "metrics": {
+        "true-35": 0.0,
+        "true-90": 0.06711719654224536,
+        "counterfactual-35": 0.004443698459201389,
+        "counterfactual-90": 0.1857757568359375
+      },
+      "changed_pixels": {
+        "true-35": 0,
+        "true-90": 1694,
+        "counterfactual-35": 788,
+        "counterfactual-90": 8772
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "onset_low-true-35.png": "ba339cb73d705db2b500e8c32163ee454f9bb0c202c0490de7e12d55a133383b",
+        "onset_low-true-90.png": "fbbbf034299b1bcdc4f8cd651963e766e2275cd7ef1f62edcc67f471cb68a0ab",
+        "onset_low-counterfactual-35.png": "d63ecfec41a930cbed69e9229d9699f077383a1bd92ce5d55d9dadcb9124995b",
+        "onset_low-counterfactual-90.png": "da637d2ca97e728a00f766738330feda21b2ba06df665a129c112db954c9c98c"
+      },
+      "metrics": {
+        "true-35": 0.24348958333333334,
+        "true-90": 0.0030839708116319445,
+        "counterfactual-35": 0.2120937771267361,
+        "counterfactual-90": 0.004692360206886574
+      },
+      "changed_pixels": {
+        "true-35": 7287,
+        "true-90": 1810,
+        "counterfactual-35": 6932,
+        "counterfactual-90": 2953
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "onset_high-true-35.png": "83521e72dbd41c012bfad42e31c06eab413c8a8043489dc18e3fa3096e05c5d7",
+        "onset_high-true-90.png": "e40d1f03647bda85ee5370ff07fba4487be3a5550251a145f9011a830218d6bb",
+        "onset_high-counterfactual-35.png": "f2ce48b500b47eaf048247fe1bc180aea0d11beb92169bf3b90262891b8df30e",
+        "onset_high-counterfactual-90.png": "ac317d5a8990c0a72ae0e4693adb6e19e6ea98f4cd6014a4090975419ea73e62"
+      },
+      "metrics": {
+        "true-35": 0.3092634412977431,
+        "true-90": 0.1433388038917824,
+        "counterfactual-35": 0.3041025797526042,
+        "counterfactual-90": 0.2550551803023727
+      },
+      "changed_pixels": {
+        "true-35": 8269,
+        "true-90": 5894,
+        "counterfactual-35": 8204,
+        "counterfactual-90": 12616
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.09,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.65,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "depth_low-true-35.png": "0c34786c42e8cb1536a7ebe85453da2134651446429b7a942ca0365ceb02c96e",
+        "depth_low-true-90.png": "118bca024c6b5240ce350b7e5bdf5233ebd9f8e8a6667feafeb39f35d10b150a",
+        "depth_low-counterfactual-35.png": "c0eedbed29d2712e90e9da70765c5455d43d0fb668c108caf64e4bcaabf327ad",
+        "depth_low-counterfactual-90.png": "6e5eafb4676b23a1fef1f2bfd57078cad04bef13246806154e722ceb768c3b3d"
+      },
+      "metrics": {
+        "true-35": 0.0984638355396412,
+        "true-90": 0.028335006148726853,
+        "counterfactual-35": 0.09782918294270833,
+        "counterfactual-90": 0.1574543140552662
+      },
+      "changed_pixels": {
+        "true-35": 4886,
+        "true-90": 2357,
+        "counterfactual-35": 4847,
+        "counterfactual-90": 9714
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1332,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.87,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "depth_high-true-35.png": "f27bd08e54605908712bea894c5c32ea222a2b1715ee5203dddfa578831a9511",
+        "depth_high-true-90.png": "f6099a84091852c62f22687c832db71f7baef5a3aaf669918cb7644119340c96",
+        "depth_high-counterfactual-35.png": "f6326575fd43f79650844a80ef190844036c39d5208999271af53a62d5820390",
+        "depth_high-counterfactual-90.png": "a54a56425bb9794ca7a0fc53af0ba6a18367a7ec206de3791a67ee76a432fbf1"
+      },
+      "metrics": {
+        "true-35": 0.030422634548611112,
+        "true-90": 0.02083954987702546,
+        "counterfactual-35": 0.030258743851273147,
+        "counterfactual-90": 0.08450091326678241
+      },
+      "changed_pixels": {
+        "true-35": 3664,
+        "true-90": 3023,
+        "counterfactual-35": 3653,
+        "counterfactual-90": 8506
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "appearance_low-true-35.png": "bb685a3387bb54ddcbbefa33dc499b809f0f8db3741a3478f3d53633eec149f9",
+        "appearance_low-true-90.png": "556f7b407184bdf028a5918f9ba797e70c27c5ad0936585f71d2eb2006342538",
+        "appearance_low-counterfactual-35.png": "18e2ed69d92237609a78867c9fb3c12fefa8f60c5552a20268c457b2906bbf90",
+        "appearance_low-counterfactual-90.png": "94385591e0c56613f514d4f9ef6a837bca9db9fa6b78964ba85f3f8832734ac2"
+      },
+      "metrics": {
+        "true-35": 0.6017467357494213,
+        "true-90": 0.6028741907190394,
+        "counterfactual-35": 0.6017506917317709,
+        "counterfactual-90": 0.5972493489583334
+      },
+      "changed_pixels": {
+        "true-35": 454788,
+        "true-90": 455182,
+        "counterfactual-35": 454782,
+        "counterfactual-90": 456077
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "appearance_high-true-35.png": "ab7b5128d980bbb579d857afb45519d2817135c72af07182e3b5cadcc0e9a230",
+        "appearance_high-true-90.png": "9900b07d35023d9df02d253233507fdfece183658bb857d173bac2a4a8de2e57",
+        "appearance_high-counterfactual-35.png": "9508fab6220668d2925052c57b6aa8a5bb409e21193e24e1c622062a35d6a4e6",
+        "appearance_high-counterfactual-90.png": "990545347f462204138364d5110a1653d732ce8a9254ab802e7b3bc3f8742e25"
+      },
+      "metrics": {
+        "true-35": 0.2348949291087963,
+        "true-90": 0.23687292028356483,
+        "counterfactual-35": 0.23487684461805555,
+        "counterfactual-90": 0.19388212981047453
+      },
+      "changed_pixels": {
+        "true-35": 41158,
+        "true-90": 41501,
+        "counterfactual-35": 41148,
+        "counterfactual-90": 41225
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "view_low-true-35.png": "a0b8431ae202c690811bbb597ec7fd8e08139587801fd1678d83be2b9a9302aa",
+        "view_low-true-90.png": "fa6c9f0872d5b70d09df6f9e3bf63a8afb8818ef26ca368feef65e6db583e0d7",
+        "view_low-counterfactual-35.png": "209e9ccb5a924a9b86fc56251ab46472638e6bdec04eeb04ec73407572f220b0",
+        "view_low-counterfactual-90.png": "7dfdec249bbdcdbffafaf37f14d9d1a9db1ad7aa341f2ec1a2d613d1e2bccb44"
+      },
+      "metrics": {
+        "true-35": 4.74522230360243,
+        "true-90": 4.833340680157697,
+        "counterfactual-35": 4.744567305953415,
+        "counterfactual-90": 4.591996369538484
+      },
+      "changed_pixels": {
+        "true-35": 500734,
+        "true-90": 501504,
+        "counterfactual-35": 500720,
+        "counterfactual-90": 501822
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "rod_half_length": 2.112,
+        "rod_height": 0.1,
+        "rod_width": 0.24,
+        "rod_mass": 0.65,
+        "weight_mass": 0.5005,
+        "weight_x": 1.54176,
+        "weight_radius": 0.1236,
+        "pad_start": 1.2288,
+        "pad_end": 0.075,
+        "pad_half_width": 0.072,
+        "pad_top": 1.55,
+        "close_seconds": 2.821111111111111,
+        "friction": 0.72,
+        "substeps": 20,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.",
+        "force": 8.0535,
+        "camera_elevation_ratio": 0.37
+      },
+      "images": {
+        "view_high-true-35.png": "2475a35903272771236b130c48b97121b7f495e1f787ee12b1d4b9ee73820fb8",
+        "view_high-true-90.png": "519b333fb778dafd3054992e2257b544b7fa5ef93a4f9a6fe0f66d32c81233ba",
+        "view_high-counterfactual-35.png": "53df623fbc9e4a4d6330a5ce00a273ecf9852fe100e718c2450443234dc1e544",
+        "view_high-counterfactual-90.png": "378359b1d33de569d52e2faa01f206e671841b7dfca3d01de1e409d477f85a3a"
+      },
+      "metrics": {
+        "true-35": 4.656823617440683,
+        "true-90": 4.6870168050130205,
+        "counterfactual-35": 4.656828138563368,
+        "counterfactual-90": 4.596079508463542
+      },
+      "changed_pixels": {
+        "true-35": 281940,
+        "true-90": 282993,
+        "counterfactual-35": 281936,
+        "counterfactual-90": 283637
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "sliding_supports_weighted_rod_balance_failure_00000042",
+    "seed": 42,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/sliding_supports_weighted_rod_balance_failure_00000042/true/video_browser.mp4",
+    "browser_sha256": "da5e249cb2a655ab8f0610eeb0d0736f2d80e1b3cac4791c63cbf620f9ad7151",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/sliding_supports_weighted_rod_balance_failure-2d51a2f2d55923c50a0f40d573f9e4d3548e1444-42-true.mp4",
+    "native_sha256": "ad7071b6c3f7f210047437cbfd40a9c9ade80600af4caf924b71b95451f79d96"
+  },
+  {
+    "case_id": "sliding_supports_weighted_rod_balance_failure_00000042",
+    "seed": 42,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/sliding_supports_weighted_rod_balance_failure_00000042/counterfactual_unpowered_horizontal_force_during_support_closure/video_browser.mp4",
+    "browser_sha256": "543833e40af3405f806b81d1f3743f7278fb368034edfaec66c7ebde51024be8",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/sliding_supports_weighted_rod_balance_failure-2d51a2f2d55923c50a0f40d573f9e4d3548e1444-42-video.mp4",
+    "native_sha256": "7b17f642d4e2ee7d66240064e8352b41af25be1fc7bbfcfd9d2eb6ab3284beb7"
+  },
+  {
+    "case_id": "sliding_supports_weighted_rod_balance_failure_00000042",
+    "seed": 42,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/sliding_supports_weighted_rod_balance_failure_00000042/counterfactual_unpowered_horizontal_force_during_support_closure/mask_browser.mp4",
+    "browser_sha256": "05dcbc3b0eaa3de3fa4307109388028536c7f60ede6bc2b8c7b774c47d8fed2b",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/sliding_supports_weighted_rod_balance_failure-2d51a2f2d55923c50a0f40d573f9e4d3548e1444-42-mask.mp4",
+    "native_sha256": "d82f31c405704ded0fa633a7f76048de219afd0808b427ad4e8008068f602265"
+  },
+  {
+    "case_id": "sliding_supports_weighted_rod_balance_failure_00000042",
+    "seed": 42,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/sliding_supports_weighted_rod_balance_failure_00000042/counterfactual_unpowered_horizontal_force_during_support_closure/mask_overlay_browser.mp4",
+    "browser_sha256": "30f57b7df895f24262aa8548b970124a67eb789bd27b4ce9e4e53283fc25eb01",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/sliding_supports_weighted_rod_balance_failure-2d51a2f2d55923c50a0f40d573f9e4d3548e1444-42-mask_overlay.mp4",
+    "native_sha256": "1947506b51b6fb60f80a1171ba0b84b1058bd1bd689e1a87b01c55ce784cf814"
+  },
+  {
+    "case_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+    "seed": 98,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/sliding_supports_weighted_rod_balance_failure_00000098/true/video_browser.mp4",
+    "browser_sha256": "83f6aec2a74bdb45525427fce026a0e840e4d366a8764ed65dc77a14ef402f1a",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/sliding_supports_weighted_rod_balance_failure-2d51a2f2d55923c50a0f40d573f9e4d3548e1444-98-true.mp4",
+    "native_sha256": "7acc3cc338cb4c79e2645c0d88d97359111124a6e8bdc48409833544930105bb"
+  },
+  {
+    "case_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+    "seed": 98,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/sliding_supports_weighted_rod_balance_failure_00000098/counterfactual_unpowered_horizontal_force_during_support_closure/video_browser.mp4",
+    "browser_sha256": "0c92fd1814406d6289a9b113d2d8d332636c8789a497b0ace08ffbffc94864b2",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/sliding_supports_weighted_rod_balance_failure-2d51a2f2d55923c50a0f40d573f9e4d3548e1444-98-video.mp4",
+    "native_sha256": "19a3d8cba9250f731ebc5c034d171c621519f7bcb40180ee0a16de364b06ad73"
+  },
+  {
+    "case_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+    "seed": 98,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/sliding_supports_weighted_rod_balance_failure_00000098/counterfactual_unpowered_horizontal_force_during_support_closure/mask_browser.mp4",
+    "browser_sha256": "5211bed6a87cfa40a6a74e438aff0f234bf2d1b5390a883d134e991758c8d962",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/sliding_supports_weighted_rod_balance_failure-2d51a2f2d55923c50a0f40d573f9e4d3548e1444-98-mask.mp4",
+    "native_sha256": "df71361b941327af01ddaff003555d940a153606e908db96348603bae7d1eeec"
+  },
+  {
+    "case_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+    "seed": 98,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/sliding_supports_weighted_rod_balance_failure/2d51a2f2d55923c50a0f40d573f9e4d3548e1444/sliding_supports_weighted_rod_balance_failure_00000098/counterfactual_unpowered_horizontal_force_during_support_closure/mask_overlay_browser.mp4",
+    "browser_sha256": "5d9e89ab30e89b1fbb9dc856cbef4db9b570b452ddb7b42c09eea6deb80d573e",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/sliding_supports_weighted_rod_balance_failure-2d51a2f2d55923c50a0f40d573f9e4d3548e1444-98-mask_overlay.mp4",
+    "native_sha256": "f6d7ef95ba23436af3021022be54c054995537a46feb543b63c95ae182f07d3c"
+  }
+]

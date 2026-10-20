@@ -1,0 +1,629 @@
+{
+  "generator": "eccentric_weighted_wheel_unpowered_overclimb",
+  "commit": "3818be70cd34a4034def870d747c6d0dfbd7ff22",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "baseline-true-35.png": "2de2f8b0a9ddc3d873498007b852bec0a5e1612a1683e094ba9c74ed2222e4db",
+        "baseline-true-90.png": "ba50b4c5bf00127d133ec38b81ffd9c959fa18667034f546938977213a305b30",
+        "baseline-counterfactual-35.png": "3b395fcb66465db06b9b2949adfd264462766717db2b389bdcc9ba08d53dd77a",
+        "baseline-counterfactual-90.png": "a90457cc2c0fe36e37e2cdf3300fe3cee4e0e085a6fec54a0b4c32ebb843daec"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.26574,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02275423452944618,
+        "rim_mass": 0.55,
+        "ballast_mass": 2.8,
+        "mass": 3.3499999999999996,
+        "eccentricity": 0.22211104477611937,
+        "inertia_centre": 0.2843398344577333,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 0.7885648482,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "length_low-true-35.png": "4ba1818447fbf4479631f2af296b976a7e2efa051363ab73415cfd36e5542c39",
+        "length_low-true-90.png": "a9bae218f145046253c8f1c600094a5af239156b4e8187c83a40015f336c4a8c",
+        "length_low-counterfactual-35.png": "160d44fe5c982548be6fbec3b09edc9546e9b6ac67d7497e2a9b7c27392f197e",
+        "length_low-counterfactual-90.png": "21df65c1fc42a6381fc107b2f64cff0e38f2f4c5782d286c1838a3c11515b5fa"
+      },
+      "metrics": {
+        "true-35": 0.13136856644241898,
+        "true-90": 0.12852308485243055,
+        "counterfactual-35": 0.13136856644241898,
+        "counterfactual-90": 0.40325984248408564
+      },
+      "changed_pixels": {
+        "true-35": 5867,
+        "true-90": 5697,
+        "counterfactual-35": 5867,
+        "counterfactual-90": 8151
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.30117200000000005,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.030945758960046803,
+        "rim_mass": 0.7480000000000001,
+        "ballast_mass": 3.808,
+        "mass": 4.556,
+        "eccentricity": 0.2517258507462687,
+        "inertia_centre": 0.46319280820958947,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.072448193552,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "length_high-true-35.png": "23bb2647bcca7dfbb08cf48ab6c370b2bfba2ad80143555843ab535249011266",
+        "length_high-true-90.png": "b7fb507a532e083c88b353e3a547de88904e9dcbf5721b0095fe231e4ece7f13",
+        "length_high-counterfactual-35.png": "8d5a1990c14e584419c8413d921e769aa4877bc9a76c71f7d6a21d425fc3410f",
+        "length_high-counterfactual-90.png": "1041da3766c19ac6235ed94668f56ca6b90ad630ae5da6e8d5092a010359ac9b"
+      },
+      "metrics": {
+        "true-35": 0.03737838179976852,
+        "true-90": 0.06355737756799769,
+        "counterfactual-35": 0.03737838179976852,
+        "counterfactual-90": 0.2502701370804398
+      },
+      "changed_pixels": {
+        "true-35": 4510,
+        "true-90": 5006,
+        "counterfactual-35": 4510,
+        "counterfactual-90": 6843
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.095,
+        "initial_phase": 0.715,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.0,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "response_low-true-35.png": "dcfbfdb54607685441d18d4f39576b4f72b6bf0c8fc9a5bef5f74cf626bffe84",
+        "response_low-true-90.png": "b531f3e1843e54d67045b6c30358369015ab05e31a1bac322c461b5ac86388c8",
+        "response_low-counterfactual-35.png": "42e4d9510f69996a8483f8f21b388b5a9c23fdbbeb03d1fefe79d3fc09d6fe85",
+        "response_low-counterfactual-90.png": "882a477a62789816f34568ca479a65df768eef2f9e4c0fed53a54c6b3399b2a7"
+      },
+      "metrics": {
+        "true-35": 0.20531830964265047,
+        "true-90": 0.1882205539279514,
+        "counterfactual-35": 0.20531830964265047,
+        "counterfactual-90": 0.16618403682002314
+      },
+      "changed_pixels": {
+        "true-35": 18861,
+        "true-90": 19142,
+        "counterfactual-35": 18861,
+        "counterfactual-90": 18993
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.12000000000000001,
+        "initial_phase": 0.74,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.1800000000000002,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "response_high-true-35.png": "099297e0c27faab051328dddf6dda6ff1428072a41839fd65a406d8cfa36da9e",
+        "response_high-true-90.png": "5347a7f7652658172a171dbf4fe54d3c9e6256c8c7893fba42d669bf1fbb8743",
+        "response_high-counterfactual-35.png": "099297e0c27faab051328dddf6dda6ff1428072a41839fd65a406d8cfa36da9e",
+        "response_high-counterfactual-90.png": "a95178d35c75e114532811a3c9a1da239c1c97144ca344c8b51aa1bc100874e3"
+      },
+      "metrics": {
+        "true-35": 0.540639806676794,
+        "true-90": 0.4981853343822338,
+        "counterfactual-35": 0.540639806676794,
+        "counterfactual-90": 0.5567208749276621
+      },
+      "changed_pixels": {
+        "true-35": 44837,
+        "true-90": 44278,
+        "counterfactual-35": 44837,
+        "counterfactual-90": 44833
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "onset_low-true-35.png": "f3b1bdcea775ce3b158485ec61af1104742da1b74b6a0bf7b6f30bee7a50f8eb",
+        "onset_low-true-90.png": "c7470520139e9f495132e363bd2b9871691658f6576d9073de418fdfd9b4dddc",
+        "onset_low-counterfactual-35.png": "f3b1bdcea775ce3b158485ec61af1104742da1b74b6a0bf7b6f30bee7a50f8eb",
+        "onset_low-counterfactual-90.png": "053e4965d0396a64277d5232556cc860449727f479ce3876a2fb2515ade4a067"
+      },
+      "metrics": {
+        "true-35": 0.4743358470775463,
+        "true-90": 0.21404238100405093,
+        "counterfactual-35": 0.4743358470775463,
+        "counterfactual-90": 0.34769807038483797
+      },
+      "changed_pixels": {
+        "true-35": 8291,
+        "true-90": 6308,
+        "counterfactual-35": 8291,
+        "counterfactual-90": 7704
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "onset_high-true-35.png": "c80d853997bfbe07916ac2fb8e9884f9aaab71b4ba60461957c042f92f6d22b2",
+        "onset_high-true-90.png": "8a5adbfd23c24d51c30b673bea3ef35f7ce6a5c3735281d7a09b407d729813e4",
+        "onset_high-counterfactual-35.png": "7bc36775ad41fc168df0aa7b151d14b8c61cfa7789cd6645a54cf2201472d789",
+        "onset_high-counterfactual-90.png": "3ea28c695beca0c2a760f14b82935a952e53e282564fcdea0971826b7576ff70"
+      },
+      "metrics": {
+        "true-35": 0.5224225079571759,
+        "true-90": 0.16452987105758102,
+        "counterfactual-35": 0.5224225079571759,
+        "counterfactual-90": 0.4896765814887153
+      },
+      "changed_pixels": {
+        "true-35": 8569,
+        "true-90": 5955,
+        "counterfactual-35": 8569,
+        "counterfactual-90": 8887
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.3225,
+        "ballast_offset": 0.21356666666666668,
+        "ballast_radius": 0.0516,
+        "ballast_thickness": 0.05493183695596534,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.1785034825870647,
+        "inertia_centre": 0.21981033198222225,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 0.53517456,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "depth_low-true-35.png": "250d722bc3d88a132bb5ab9bc7a104cb5cd2d9b33f87c921b40002889d747f42",
+        "depth_low-true-90.png": "6d875f0d5048dd72134d7d591349cae32d487728d03b22e9d42ac60bc550ef73",
+        "depth_low-counterfactual-35.png": "250d722bc3d88a132bb5ab9bc7a104cb5cd2d9b33f87c921b40002889d747f42",
+        "depth_low-counterfactual-90.png": "43995e9ef64ba1d844c3a864da6ae69f8bd042c0e2ff608d20fe87ba7c303f44"
+      },
+      "metrics": {
+        "true-35": 0.5503020109953703,
+        "true-90": 0.5402882893880209,
+        "counterfactual-35": 0.5503020109953703,
+        "counterfactual-90": 0.5225604021990741
+      },
+      "changed_pixels": {
+        "true-35": 7703,
+        "true-90": 8454,
+        "counterfactual-35": 7703,
+        "counterfactual-90": 8855
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.47730000000000006,
+        "ballast_offset": 0.31607866666666673,
+        "ballast_radius": 0.076368,
+        "ballast_thickness": 0.025078450034681028,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2641851542288558,
+        "inertia_centre": 0.4878684474938597,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.1722463562240002,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "depth_high-true-35.png": "0b3b704da7415fb5f0597594280b38d2a56f3c7750641656e94dcdaf6125eb09",
+        "depth_high-true-90.png": "c7b3658bcc89a3047d708988edda8cdbb8545fde3f7940e9bba7d858538c7c78",
+        "depth_high-counterfactual-35.png": "0b3b704da7415fb5f0597594280b38d2a56f3c7750641656e94dcdaf6125eb09",
+        "depth_high-counterfactual-90.png": "3a203a6a784018fa3017382e0190d6e1669d0b6fc456ee9f5a895b7201443596"
+      },
+      "metrics": {
+        "true-35": 0.4204779730902778,
+        "true-90": 0.5166880289713541,
+        "counterfactual-35": 0.4204779730902778,
+        "counterfactual-90": 0.49915511519820605
+      },
+      "changed_pixels": {
+        "true-35": 7470,
+        "true-90": 8894,
+        "counterfactual-35": 7470,
+        "counterfactual-90": 9200
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "appearance_low-true-35.png": "63905f4b72cba9ee3388ca1132a6d166e3493d497f0aa037ae95618ffee8a3ed",
+        "appearance_low-true-90.png": "82a52b377b612733bfa863d3389061bcfb7ea9bcf13121b2e9dcdfa8f9429786",
+        "appearance_low-counterfactual-35.png": "681e6aa0ec1ced719250c0b3ebb87ecb891601119ea3f491bed45b8fff751002",
+        "appearance_low-counterfactual-90.png": "d8648824e97ab385504eab02b1a2fb7b6a81b1d0a3af18f7ebeed2017f48b371"
+      },
+      "metrics": {
+        "true-35": 0.6070579246238426,
+        "true-90": 0.6071935583043981,
+        "counterfactual-35": 0.6070579246238426,
+        "counterfactual-90": 0.607290197301794
+      },
+      "changed_pixels": {
+        "true-35": 470506,
+        "true-90": 470710,
+        "counterfactual-35": 470506,
+        "counterfactual-90": 470559
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "appearance_high-true-35.png": "798f0538bbadc4ba771a5e032cd04dbf9f230faab5130d2de1e30c75a1191743",
+        "appearance_high-true-90.png": "65c1ba152689b3eb968ce8cfba77222ee53dad8faae4db4ec0d23fb4e99b02d7",
+        "appearance_high-counterfactual-35.png": "798f0538bbadc4ba771a5e032cd04dbf9f230faab5130d2de1e30c75a1191743",
+        "appearance_high-counterfactual-90.png": "d9908e9c0047328181724852baef34f317bf3b2bd9f699ce48819caef882f72e"
+      },
+      "metrics": {
+        "true-35": 0.0627865261501736,
+        "true-90": 0.061192830403645836,
+        "counterfactual-35": 0.0627865261501736,
+        "counterfactual-90": 0.0646548800998264
+      },
+      "changed_pixels": {
+        "true-35": 39556,
+        "true-90": 39464,
+        "counterfactual-35": 39556,
+        "counterfactual-90": 39430
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "view_low-true-35.png": "a819261afb7c77495b72c364088581d1746b9d8ca32584b45d9866fcb5f1c9ca",
+        "view_low-true-90.png": "ba5fde4f21de73dd6f525692ff88cd2e21ab11a61ba0d16f1b099a73eac18383",
+        "view_low-counterfactual-35.png": "c1a377e97db2ab151ecfa1c8bbaf0afbd1fc2776288a8c4ec413c2ea837b66a3",
+        "view_low-counterfactual-90.png": "8e447671b8be93d04a386643f85114f5c61dc777727452bfb6d76fa82800f583"
+      },
+      "metrics": {
+        "true-35": 3.133565832067419,
+        "true-90": 2.9504581027560763,
+        "counterfactual-35": 3.133565832067419,
+        "counterfactual-90": 2.895537764937789
+      },
+      "changed_pixels": {
+        "true-35": 518246,
+        "true-90": 517990,
+        "counterfactual-35": 518246,
+        "counterfactual-90": 517738
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "radius": 0.4429,
+        "ballast_offset": 0.29329822222222224,
+        "ballast_radius": 0.07086400000000001,
+        "ballast_thickness": 0.02912542019769111,
+        "rim_mass": 0.7040000000000001,
+        "ballast_mass": 3.5839999999999996,
+        "mass": 4.287999999999999,
+        "eccentricity": 0.2451447827529022,
+        "inertia_centre": 0.419170448924337,
+        "slope": 0.10055555555555555,
+        "initial_phase": 0.7205555555555555,
+        "damping": 1.009363005696,
+        "servo_gain": 7.0,
+        "servo_speed": 1.04,
+        "solver_steps_per_frame": 40,
+        "time_scale": 1.0,
+        "model": "One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.",
+        "initial_s": -1.45,
+        "camera_elevation_ratio": 0.36
+      },
+      "images": {
+        "view_high-true-35.png": "d6f8977d67edec3b4bd0d3cdb6a45b1c82f5bb74f6f469f4af4adc3d2c9c5db1",
+        "view_high-true-90.png": "8e62348f06818b68120829907f5bfcd65e62c973390b090f52e4939a343c06e6",
+        "view_high-counterfactual-35.png": "2f0f703bad0415483cddfd8af882a4edfb9a7442a19964e89f453a3e5080608e",
+        "view_high-counterfactual-90.png": "dd5fe8808c1d9db7c4921f1cbd719066cae2b18cf027b0eedd03cd921034fe37"
+      },
+      "metrics": {
+        "true-35": 2.5941569010416665,
+        "true-90": 2.2633943910951966,
+        "counterfactual-35": 2.5941569010416665,
+        "counterfactual-90": 2.270264237015336
+      },
+      "changed_pixels": {
+        "true-35": 427881,
+        "true-90": 427413,
+        "counterfactual-35": 427881,
+        "counterfactual-90": 427415
+      }
+    }
+  }
+}

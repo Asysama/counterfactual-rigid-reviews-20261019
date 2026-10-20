@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "counter_rotating_rollers_centering_response_reversal_00000042",
+    "seed": 42,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/counter_rotating_rollers_centering_response_reversal_00000042/true/video_browser.mp4",
+    "browser_sha256": "90bb1436a424d91387fd5a288142fa9a14f103ec419db0531c2cfdc3333ec51a",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/counter_rotating_rollers_centering_response_reversal-9cbc970ce66cdd2ede4e26ec741c4f23d373b078-42-true.mp4",
+    "native_sha256": "26990a3b698f8525dc769fbd421ff26e34190efd3dd45d0f2e271af646903ce3"
+  },
+  {
+    "case_id": "counter_rotating_rollers_centering_response_reversal_00000042",
+    "seed": 42,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/counter_rotating_rollers_centering_response_reversal_00000042/counterfactual_negative_kinetic_friction_after_drive_start/video_browser.mp4",
+    "browser_sha256": "b33526aacf6eb5445178cc2a2970a7c6dca7fbe092096088b2081bf5461c3043",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/counter_rotating_rollers_centering_response_reversal-9cbc970ce66cdd2ede4e26ec741c4f23d373b078-42-video.mp4",
+    "native_sha256": "416789e2fb53ab9ac22469c07b5d490d819e6085f54b4827cca84d13bd63a9a5"
+  },
+  {
+    "case_id": "counter_rotating_rollers_centering_response_reversal_00000042",
+    "seed": 42,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/counter_rotating_rollers_centering_response_reversal_00000042/counterfactual_negative_kinetic_friction_after_drive_start/mask_browser.mp4",
+    "browser_sha256": "dd646c378bacc209af8c13632bcf8c5875c60ac8166400f0e1d7c86d26d250a9",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/counter_rotating_rollers_centering_response_reversal-9cbc970ce66cdd2ede4e26ec741c4f23d373b078-42-mask.mp4",
+    "native_sha256": "91e77b4f60e8ca7095a82d1903d0fa21ad88a8fbe3a33de0225018e5eeb4813a"
+  },
+  {
+    "case_id": "counter_rotating_rollers_centering_response_reversal_00000042",
+    "seed": 42,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/counter_rotating_rollers_centering_response_reversal_00000042/counterfactual_negative_kinetic_friction_after_drive_start/mask_overlay_browser.mp4",
+    "browser_sha256": "cebed0341d9ec4cf290e5fc144fc54cfa6044ce88d7999cf2a47b696b8ddcf30",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/counter_rotating_rollers_centering_response_reversal-9cbc970ce66cdd2ede4e26ec741c4f23d373b078-42-mask_overlay.mp4",
+    "native_sha256": "8200c75cf6a08972486e2fc06e5e7b8f62e717a1383afde92c45568d1e51bee6"
+  },
+  {
+    "case_id": "counter_rotating_rollers_centering_response_reversal_00000098",
+    "seed": 98,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/counter_rotating_rollers_centering_response_reversal_00000098/true/video_browser.mp4",
+    "browser_sha256": "beb3050eabd6cc0945aad358034f57ab79644ae5600c9d72b084b6e90178c307",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/counter_rotating_rollers_centering_response_reversal-9cbc970ce66cdd2ede4e26ec741c4f23d373b078-98-true.mp4",
+    "native_sha256": "c145ea5f62ec3c7ff421220672d1a448e0dfe1b6b84d139a3cf8c1ab97e48731"
+  },
+  {
+    "case_id": "counter_rotating_rollers_centering_response_reversal_00000098",
+    "seed": 98,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/counter_rotating_rollers_centering_response_reversal_00000098/counterfactual_negative_kinetic_friction_after_drive_start/video_browser.mp4",
+    "browser_sha256": "17b8153818ee557251b73bf44a1f5f7fc69446065f8ff364a86729693d3a57c8",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/counter_rotating_rollers_centering_response_reversal-9cbc970ce66cdd2ede4e26ec741c4f23d373b078-98-video.mp4",
+    "native_sha256": "fe0001f6789e410bba2e91ad5298933ca3cd367c34ef21721eff8c1dcdcdd715"
+  },
+  {
+    "case_id": "counter_rotating_rollers_centering_response_reversal_00000098",
+    "seed": 98,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/counter_rotating_rollers_centering_response_reversal_00000098/counterfactual_negative_kinetic_friction_after_drive_start/mask_browser.mp4",
+    "browser_sha256": "b5237db47660e9e713d7876e986cbc683e8052fbd0009b0c6176a82213b09f3e",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/counter_rotating_rollers_centering_response_reversal-9cbc970ce66cdd2ede4e26ec741c4f23d373b078-98-mask.mp4",
+    "native_sha256": "dcfbbc668974b7b0397d6ceb704ce5fb822ec1fb99047991372c7b1742eb85a9"
+  },
+  {
+    "case_id": "counter_rotating_rollers_centering_response_reversal_00000098",
+    "seed": 98,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/counter_rotating_rollers_centering_response_reversal/9cbc970ce66cdd2ede4e26ec741c4f23d373b078/counter_rotating_rollers_centering_response_reversal_00000098/counterfactual_negative_kinetic_friction_after_drive_start/mask_overlay_browser.mp4",
+    "browser_sha256": "dd705a1a0d7b5f8852a2c6a45dc91ff3bc4c1ebe7b82e60ffc4b74bde7823a40",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/counter_rotating_rollers_centering_response_reversal-9cbc970ce66cdd2ede4e26ec741c4f23d373b078-98-mask_overlay.mp4",
+    "native_sha256": "2c67ff04b465868b2baaa1669454eeac53ad402e5e1b0fd6124b12e03ba34d0e"
+  }
+]

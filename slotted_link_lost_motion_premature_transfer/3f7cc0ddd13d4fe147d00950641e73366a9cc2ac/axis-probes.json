@@ -1,0 +1,525 @@
+{
+  "generator": "slotted_link_lost_motion_premature_transfer",
+  "commit": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "baseline-true-35.png": "fba1cb94bb150468379e98d435af8a229ff18095daed91ec606fca58deb660d5",
+        "baseline-true-90.png": "437fb162eeea366ea85d895918888a22a2bd7a7402887108bbc52cf540931e71",
+        "baseline-counterfactual-35.png": "d43585fe5262d1aa2e1823f674b8230d9aa973a9ff6aa41acd5d0c58218f9468",
+        "baseline-counterfactual-90.png": "20584bd46aa51211babfb97561079212debce2e61fae53cb901f5eca4196ee2f"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.085,
+        "stroke": 1.4238,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.16,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "length_low-true-35.png": "1cbc9bd5025fd84ce3ffe8bde0e3ee908aa303d68b87abe436f225753c7afba7",
+        "length_low-true-90.png": "d98d9ec2a2893b625dfa108c3cd9f494cef654a9129e9da53a0f9ef3d4ad1fd9",
+        "length_low-counterfactual-35.png": "1fd2468e89480e3abb2e74164e7d712849bc5fd47f592471396c7a1f993a5e89",
+        "length_low-counterfactual-90.png": "417071b33b9536326b6a2d36bec258b44bb396592cd80d884558349b4a84973f"
+      },
+      "metrics": {
+        "true-35": 0.3079172770182292,
+        "true-90": 0.8730321813512731,
+        "counterfactual-35": 0.3288421630859375,
+        "counterfactual-90": 0.9505705656828703
+      },
+      "changed_pixels": {
+        "true-35": 12475,
+        "true-90": 18579,
+        "counterfactual-35": 12601,
+        "counterfactual-90": 19683
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.11560000000000002,
+        "stroke": 1.7658,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.19060000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "length_high-true-35.png": "ecba3a91438be8837270549e5caa90b0309de1b290afa6ab4a2c0538e48048e9",
+        "length_high-true-90.png": "6306fa909e588afdd4b359501e59268032faae5cdcd55ca8574b805086770060",
+        "length_high-counterfactual-35.png": "2ac1df755b6e6f1f39324ae3d906828da3444bfba550cf27f3a853b3c21929b7",
+        "length_high-counterfactual-90.png": "f8623e74c6fdb357f05c7c1bb29272e01911193c03fe10ecc8c68e51ecf13dad"
+      },
+      "metrics": {
+        "true-35": 0.10840069806134259,
+        "true-90": 0.4284617106119792,
+        "counterfactual-35": 0.1163013599537037,
+        "counterfactual-90": 0.4658406575520833
+      },
+      "changed_pixels": {
+        "true-35": 8530,
+        "true-90": 12944,
+        "counterfactual-35": 8814,
+        "counterfactual-90": 14012
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 56.470588235294116,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "response_low-true-35.png": "cee26697dbad8c0e62c0c1881241ca6b78599a6b149162756b93ab26887c6ee5",
+        "response_low-true-90.png": "b86827b6c061150ed0cfe73cab7e62f1ac75db5f08c24267c8ba636ab9a8fc67",
+        "response_low-counterfactual-35.png": "ec0365678d84e6d8fa8c250048e6ed43afe04fa4259960f76ecacf2feb0ef940",
+        "response_low-counterfactual-90.png": "a3a634aea6b8c15363276e03a9eb8434c36dff483bb5bf46b3bdb4a5f31530dd"
+      },
+      "metrics": {
+        "true-35": 0.0298004150390625,
+        "true-90": 0.0,
+        "counterfactual-35": 0.2017483181423611,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 1056,
+        "true-90": 0,
+        "counterfactual-35": 7735,
+        "counterfactual-90": 0
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 42.857142857142854,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "response_high-true-35.png": "cd73ed076d742f4326d85d1b00c82bc386df28b0c002edb59686518d119be85f",
+        "response_high-true-90.png": "6f2bfd2be30215a577f1e48faf40c5b35d80d8e466f7422145771180b864f15c",
+        "response_high-counterfactual-35.png": "b4a158bb74ff22b5dd509e24d277e24be01e19ccb8a3ed765126efedbb130293",
+        "response_high-counterfactual-90.png": "747f3a5de8d2b90de700c4f54c21cb01e4e0b71893ecdbc2adfb53e26abd0230"
+      },
+      "metrics": {
+        "true-35": 0.09238292552806714,
+        "true-90": 0.0,
+        "counterfactual-35": 0.5612239131221065,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 1527,
+        "true-90": 0,
+        "counterfactual-35": 11289,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "onset_low-true-35.png": "40e43b99d6c8756edc70c7d2c44d20e22d2a25819ee6ef241e74ccbc11d2d802",
+        "onset_low-true-90.png": "9d29c26388c5708dbfffefa73136a325056da83f98cc1fb6f2fc71c2889d0fcc",
+        "onset_low-counterfactual-35.png": "5a3d37d55f796bd9b9cef86f862f548687e17f33d49d670eb08cbad9b37a0069",
+        "onset_low-counterfactual-90.png": "747f3a5de8d2b90de700c4f54c21cb01e4e0b71893ecdbc2adfb53e26abd0230"
+      },
+      "metrics": {
+        "true-35": 0.09870119448061343,
+        "true-90": 0.0,
+        "counterfactual-35": 0.5924823902271412,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 1574,
+        "true-90": 0,
+        "counterfactual-35": 11709,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "onset_high-true-35.png": "11a78943b4ea84a0f4e9279bafc1b3e2796350640711a5ee3488d08a3a396ac4",
+        "onset_high-true-90.png": "e521321be74fd6b9d889962e7e3bc2fdf70c860ba4ae7f39b42e7a2dfb2746fb",
+        "onset_high-counterfactual-35.png": "778a538313577963f680ad216d17146553cc2422d534031cb43e9da89ca13343",
+        "onset_high-counterfactual-90.png": "1ec1ee110cf90ab64a71f9462c70c25b6e0c7e2fb68f829dbfaa1d01240e1fd2"
+      },
+      "metrics": {
+        "true-35": 0.1327667236328125,
+        "true-90": 0.0,
+        "counterfactual-35": 0.7353148283781828,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 1923,
+        "true-90": 0,
+        "counterfactual-35": 13503,
+        "counterfactual-90": 0
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.34500000000000003,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.561,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "depth_low-true-35.png": "34b0b7c60a086eb1ee672fd7dcec0b3ee84e29253eb14fe1fe0fa860dded3246",
+        "depth_low-true-90.png": "e2b34c5c249e3e6a27336b7cc2285f1121ff69a44145e88e393c73e3b5b35ac3",
+        "depth_low-counterfactual-35.png": "d61e29a19cf5dd0a7a187b097c58199a70343a1f69b115dd7e83a3e7d504d5d4",
+        "depth_low-counterfactual-90.png": "b75f8bb3545c7352cd7452cd8af7de2c592723b78abef25a50fea6c0714b504e"
+      },
+      "metrics": {
+        "true-35": 0.5560212311921297,
+        "true-90": 0.5722108063874422,
+        "counterfactual-35": 0.5533243815104166,
+        "counterfactual-90": 0.5076712149160879
+      },
+      "changed_pixels": {
+        "true-35": 11762,
+        "true-90": 11863,
+        "counterfactual-35": 11684,
+        "counterfactual-90": 9510
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.5106,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.7266,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "depth_high-true-35.png": "d7c7138586af13f6be45371b06a1a814061a471c30e6b783dda3d972e7ba3f53",
+        "depth_high-true-90.png": "83a155ebd06eac178fe4ace8527a28099135d474b95f2aa67397132b7e58ed87",
+        "depth_high-counterfactual-35.png": "05e18995de89f132a5eee9ad0bd504717b97be66eb78e8b58db122d869ca3b43",
+        "depth_high-counterfactual-90.png": "9bb3deeade1a3367ff7d178b96a7cfab276a8c38411ec995ea1b861a2b1a7d94"
+      },
+      "metrics": {
+        "true-35": 0.24057176378038195,
+        "true-90": 0.22088453504774305,
+        "counterfactual-35": 0.22770973488136573,
+        "counterfactual-90": 0.22022840711805555
+      },
+      "changed_pixels": {
+        "true-35": 8216,
+        "true-90": 8169,
+        "counterfactual-35": 8184,
+        "counterfactual-90": 6220
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "appearance_low-true-35.png": "6fc81141894d49e174f922362e5fbc433a056f7f1acd0bcb8a85552d76aafffc",
+        "appearance_low-true-90.png": "41b9ba8973fcb5d9b55ae7b7b460701778516b0c81f3a46712fd2eeae4fab2d1",
+        "appearance_low-counterfactual-35.png": "f8da1249346164eaadda05cd22b2d415e4b8f98989ff89f23b239154c4fb6b38",
+        "appearance_low-counterfactual-90.png": "2f8454a7ef6ae91c110f63b96176675f7563cce7ce7bd2e114c9e58ae356160d"
+      },
+      "metrics": {
+        "true-35": 0.6468375877097801,
+        "true-90": 0.6465883608217593,
+        "counterfactual-35": 0.6468517162181713,
+        "counterfactual-90": 0.6479469581886574
+      },
+      "changed_pixels": {
+        "true-35": 459620,
+        "true-90": 457951,
+        "counterfactual-35": 459356,
+        "counterfactual-90": 457665
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "appearance_high-true-35.png": "9d86c3f0d0ae59f244db4ff199db9600f20c0470b0c37ee1d17905909f870335",
+        "appearance_high-true-90.png": "65915bae4388e99a2d31e3ea837c68218a907532482cf281ec6b46010cbd69b5",
+        "appearance_high-counterfactual-35.png": "b11d5e763cd2188dd185b5af82b6b0823905b628250444562613b3ff1ed545e7",
+        "appearance_high-counterfactual-90.png": "6d4ae9add5d7b9a197e5e922dde1541cb88cdf4ea3ebaadafb4bbc2ac4802665"
+      },
+      "metrics": {
+        "true-35": 0.26204314055266203,
+        "true-90": 0.2610942699291088,
+        "counterfactual-35": 0.2614407009548611,
+        "counterfactual-90": 0.26946456344039355
+      },
+      "changed_pixels": {
+        "true-35": 45290,
+        "true-90": 45091,
+        "counterfactual-35": 45061,
+        "counterfactual-90": 45890
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "view_low-true-35.png": "456dfb02e16a4728a48ac33c4b9d8f165fba5b284336814506f138defa8d6021",
+        "view_low-true-90.png": "c821ba2e6191eaab8ef10ea46119918a1ea63a0ae634a87fcae4f6d55898b8ed",
+        "view_low-counterfactual-35.png": "bc41f14c1202eb04c33d5f126c6e048891c950c960fb23c71d412abf37562f1a",
+        "view_low-counterfactual-90.png": "4fd04469e4145ef7db1d62e7f9f81a6c634ef350fdd20f98d052e0af056414d3"
+      },
+      "metrics": {
+        "true-35": 6.760062888816551,
+        "true-90": 6.737688417787905,
+        "counterfactual-35": 6.651175604926215,
+        "counterfactual-90": 6.724411575882523
+      },
+      "changed_pixels": {
+        "true-35": 522714,
+        "true-90": 522477,
+        "counterfactual-35": 522665,
+        "counterfactual-90": 522241
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "gap": 0.47380000000000005,
+        "pin_radius": 0.10880000000000001,
+        "stroke": 1.6898,
+        "ramp_frames": 52.74725274725275,
+        "opening_half_y": 0.18380000000000002,
+        "frame_bar": 0.1,
+        "frame_z": 1.1,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+        "camera_elevation_ratio": 0.58
+      },
+      "images": {
+        "view_high-true-35.png": "87b328a9b1ae85a382810cf8bfea78b49b90287f715a59ce0c13a378b18b850f",
+        "view_high-true-90.png": "98b4fcf8fd69ec3564fa5cac2d3617243fd204d151e300983ed2073d7c44bfa3",
+        "view_high-counterfactual-35.png": "9b0ea7ef6a6b93d647f162fe75a249f4c2784d78764020e643fd862336dd49bf",
+        "view_high-counterfactual-90.png": "52e00b57cc46ee6ab16fd44540eb636a0d8150add7546a9441e2c4a7e4e15a1f"
+      },
+      "metrics": {
+        "true-35": 7.546117711950232,
+        "true-90": 7.568361070421007,
+        "counterfactual-35": 7.45743645562066,
+        "counterfactual-90": 7.5221681948061345
+      },
+      "changed_pixels": {
+        "true-35": 409122,
+        "true-90": 407386,
+        "counterfactual-35": 408217,
+        "counterfactual-90": 406335
+      }
+    }
+  }
+}

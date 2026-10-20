@@ -1,0 +1,1 @@
+A horizontal rod with a fixed weight near one end rests on two identical support pads. The pads slowly slide toward each other. Without an external push, the rod drifts away from its balancing position and tips down instead of remaining balanced above the closing pads.

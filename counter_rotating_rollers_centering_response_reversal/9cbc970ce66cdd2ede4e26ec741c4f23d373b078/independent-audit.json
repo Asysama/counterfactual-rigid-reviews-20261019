@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "all formal decoded frames, saved state and independent mechanics; visual review and identity replay separate",
+  "cases": [
+    {
+      "case_id": "counter_rotating_rollers_centering_response_reversal_00000042",
+      "head_sha": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 24,
+      "evidence": 75,
+      "mask_pixels_at_evidence": 87373,
+      "min_mask_pixels_active": 87131,
+      "minimum_adjacent_rgb_changed_pixels": 4704,
+      "mechanics": {
+        "positive_normal_and_pitch_equilibrium": true
+      }
+    },
+    {
+      "case_id": "counter_rotating_rollers_centering_response_reversal_00000098",
+      "head_sha": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 28,
+      "evidence": 74,
+      "mask_pixels_at_evidence": 70968,
+      "min_mask_pixels_active": 70799,
+      "minimum_adjacent_rgb_changed_pixels": 4843,
+      "mechanics": {
+        "positive_normal_and_pitch_equilibrium": true
+      }
+    }
+  ]
+}

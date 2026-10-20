@@ -1,0 +1,154 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.6499999761581421,
+      0.0,
+      0.8700000047683716
+    ],
+    "pos": [
+      1.4421507120132446,
+      -6.5,
+      4.639999866485596
+    ],
+    "projection": "perspective"
+  },
+  "category": "slotted_lost_motion",
+  "descriptions": {
+    "counterfactual": "A powered pin starts in the middle of a long open slot in a rail-guided frame. As the pin moves, the frame starts following it even though the pin remains in the middle of the slot without touching either end.",
+    "true": "A powered pin starts in the middle of a long open slot in a rail-guided frame. The pin travels through the empty slot while the frame stays at rest. Only after the pin reaches the slot end does it push the frame along its rails."
+  },
+  "evidence_frame": 36,
+  "first_changed_frame": 28,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench stored-state replay",
+    "git": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+    "motion_authority": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+    "source_hashes": {
+      "engine/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "engine/geometry.py": "3993ed21626b19ad94bc99fe105a70818b63d6292bf22f9f33f2ec935f4b134b",
+      "engine/media.py": "15f64f5bf7beeb21363e29cdf5a872338dec1d7f932bca1cee2619b239eff133",
+      "engine/operators.py": "d01167fe493628a15910565e904a6921c4fcdbf80aba7802fb02c90586256a30",
+      "engine/run.py": "5523028649ec4fd0ca98f07ad9944bb2e0814c4e7c282387948e2d715d4663a5",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "f3a029114b1f1f9a0654c83353330f2fc97d692e26c8ca2eac8345f5fd368540",
+      "src/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "src/helpers.py": "5ea5ec320bfebdb45b1812436afdd9554fa2e3645ff8cc3452e12352708253bb",
+      "src/phenomenon.py": "78147c9e53c87f96eb4deb4ca945dbad775b96904cd5fc721b1402b65b0e4e16",
+      "src/scaling.py": "32764f46ed6b3bd8d49adfa9a557f54dddd8b552d1a3fdccc9bffb4e413e69d0",
+      "src/violation.py": "7645a0f03be853d42435d13d0eafc80e072cb1526e1a4987c5094377a5530fa2",
+      "src/visual.py": "815d963f6c363bcf1075dbe62880f83206e58c7b79ded992200b1b459c0bbf28",
+      "tests/test_design.py": "22946463f0dc48db10065c36fd08ea4b54b6cd53e8637c30e59206a6020c24e5"
+    }
+  },
+  "intervention_frame": 28,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "target_bearing_-1_-1",
+      "target_bearing_-1_1",
+      "target_bearing_1_-1",
+      "target_bearing_1_1",
+      "target_end_-1",
+      "target_end_1",
+      "target_foot_-1_-1",
+      "target_foot_-1_1",
+      "target_foot_1_-1",
+      "target_foot_1_1",
+      "target_side_-1",
+      "target_side_1"
+    ],
+    "target_ontology": [
+      "the rail-guided slot frame, feet and sliding bearing collars"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 28,
+  "onset_frame": 28,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_contact_free_slot_frame_transfer/mask.mp4",
+      "mask_overlay": "counterfactual_contact_free_slot_frame_transfer/mask_overlay.mp4",
+      "prompt": "counterfactual_contact_free_slot_frame_transfer/prompt.txt",
+      "trajectory": "counterfactual_contact_free_slot_frame_transfer/trajectory.npz",
+      "video": "counterfactual_contact_free_slot_frame_transfer/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "slotted_link_lost_motion_premature_transfer",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 8,
+      "camera_elevation_ratio": 0.58,
+      "depth": 0.75,
+      "frame_bar": 0.1,
+      "frame_z": 1.1,
+      "gap": 0.34500000000000003,
+      "gravity": 9.81,
+      "length": 1.04,
+      "model": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+      "onset": 27,
+      "opening_half_y": 0.1634,
+      "pin_radius": 0.0884,
+      "ramp_frames": 42.857142857142854,
+      "response": 1.12,
+      "solver_steps_per_frame": 1,
+      "stroke": 1.333,
+      "time_scale": 1.0,
+      "view": 8
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "A powered pin starts in the middle of a long open slot in a rail-guided frame. The pin travels through the empty slot while the frame stays at rest. Only after the pin reaches the slot end does it push the frame along its rails.",
+        "A powered pin starts in the middle of a long open slot in a rail-guided frame. As the pin moves, the frame starts following it even though the pin remains in the middle of the slot without touching either end."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "A powered pin starts in the middle of a long open slot in a rail-guided frame. The pin travels through the empty slot while the frame stays at rest. Only after the pin reaches the slot end does it push the frame along its rails."
+        ],
+        "violation_if_true": [
+          "A powered pin starts in the middle of a long open slot in a rail-guided frame. As the pin moves, the frame starts following it even though the pin remains in the middle of the slot without touching either end."
+        ]
+      },
+      "violation_types": [
+        "contact_free_slot_frame_transfer"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "slotted_link_lost_motion_premature_transfer_00000098",
+  "timebase": {
+    "internal_dt": 0.041666666666666664,
+    "internal_substeps": 1,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "Low-speed displacement-controlled input and a unilateral rigid end stop. A resting output remains stationary until the pin reaches the slot end, then follows the continuous nonpenetrating contact constraint. The one CF operator makes the output follow the input without contact. No input or guide trajectory is changed.",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "contact_free_slot_frame_transfer"
+}

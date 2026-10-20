@@ -1,0 +1,356 @@
+{
+  "status": "PASS",
+  "scope": "all 120 native masks and both-branch target framing, independent name whitelist; shared source geometry replay",
+  "cases": [
+    {
+      "case_id": "arago_disk_magnetic_drag_reversal_00000042",
+      "head_sha": "9b869369282e10bf0a2499008af20eb1a7faa554",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.37944331765174866,
+                0.5043782591819763
+              ],
+              [
+                0.6213811635971069,
+                0.5654369592666626
+              ]
+            ],
+            [
+              [
+                0.37944331765174866,
+                0.5043782591819763
+              ],
+              [
+                0.6213811635971069,
+                0.5654369592666626
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 24,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.3794257938861847,
+                0.5043916702270508
+              ],
+              [
+                0.6213841438293457,
+                0.5654261112213135
+              ]
+            ],
+            [
+              [
+                0.379425585269928,
+                0.5043916702270508
+              ],
+              [
+                0.6213841438293457,
+                0.5654261112213135
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 41,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.37863191962242126,
+                0.4995906949043274
+              ],
+              [
+                0.619573175907135,
+                0.5694316029548645
+              ]
+            ],
+            [
+              [
+                0.3799489736557007,
+                0.5011373162269592
+              ],
+              [
+                0.6213964819908142,
+                0.5680673122406006
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 42,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.37872469425201416,
+                0.49817103147506714
+              ],
+              [
+                0.6190692782402039,
+                0.5706754326820374
+              ]
+            ],
+            [
+              [
+                0.3806880712509155,
+                0.49883225560188293
+              ],
+              [
+                0.6213266253471375,
+                0.570097029209137
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.4245939254760742,
+                0.4620806872844696
+              ],
+              [
+                0.58457350730896,
+                0.5998355150222778
+              ]
+            ],
+            [
+              [
+                0.40946444869041443,
+                0.46869075298309326
+              ],
+              [
+                0.5995336174964905,
+                0.5948281288146973
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "arago_disk_magnetic_drag_reversal_00000098",
+      "head_sha": "9b869369282e10bf0a2499008af20eb1a7faa554",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.4113697409629822,
+                0.5034628510475159
+              ],
+              [
+                0.5879387259483337,
+                0.5660762786865234
+              ]
+            ],
+            [
+              [
+                0.4113697409629822,
+                0.5034628510475159
+              ],
+              [
+                0.5879387259483337,
+                0.5660762786865234
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 28,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.4113770127296448,
+                0.5034497380256653
+              ],
+              [
+                0.5879418849945068,
+                0.5660834312438965
+              ]
+            ],
+            [
+              [
+                0.4113769829273224,
+                0.5034497380256653
+              ],
+              [
+                0.5879421234130859,
+                0.5660834312438965
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 43,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.41276201605796814,
+                0.5034430027008057
+              ],
+              [
+                0.5884307026863098,
+                0.566087543964386
+              ]
+            ],
+            [
+              [
+                0.41434183716773987,
+                0.4972134530544281
+              ],
+              [
+                0.5876275300979614,
+                0.5713105201721191
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 44,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.412361741065979,
+                0.5034427046775818
+              ],
+              [
+                0.5885609984397888,
+                0.5660879015922546
+              ]
+            ],
+            [
+              [
+                0.41544756293296814,
+                0.4953816831111908
+              ],
+              [
+                0.5869247913360596,
+                0.5728961229324341
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_central_clamp",
+            "target_magnet_0",
+            "target_magnet_1",
+            "target_pole_mark_0",
+            "target_pole_mark_1"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.4285482168197632,
+                0.48377081751823425
+              ],
+              [
+                0.5760054588317871,
+                0.582637369632721
+              ]
+            ],
+            [
+              [
+                0.46542149782180786,
+                0.47481974959373474
+              ],
+              [
+                0.5324602723121643,
+                0.5898231267929077
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

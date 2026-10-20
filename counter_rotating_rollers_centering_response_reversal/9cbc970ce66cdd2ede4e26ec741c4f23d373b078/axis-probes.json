@@ -1,0 +1,551 @@
+{
+  "generator": "counter_rotating_rollers_centering_response_reversal",
+  "commit": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "baseline-true-35.png": "5e1ed212f93556b26d36c7a5bc93e261cb7b6cf02a0d9516a80d6930161d1b4e",
+        "baseline-true-90.png": "b252a48b154cbdcf641ce648a9af3d423122f1a05c95f563bd7eed7af5afca43",
+        "baseline-counterfactual-35.png": "bc6ac7f203e0d93bd621cedf7e905667337e5aa85b2f5bb7780b1ab224b2a49f",
+        "baseline-counterfactual-90.png": "3601a34d88c6ee40ff0916d2ed6cfb848f8e6699555001beabf61ad400aff797"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.78,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.0,
+        "rod_height": 0.12,
+        "initial_offset": 0.16,
+        "friction": 0.07966980428134554,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "length_low-true-35.png": "17f553cf01a4081b90a126739d5e00994915048aa05d3caa661a3f6ddbce7bc5",
+        "length_low-true-90.png": "e5e9a9a6bb04df06548ffcd86efb685bdf131d1b9d8704d1de61b31384d12484",
+        "length_low-counterfactual-35.png": "719f1e465b08632279b53508c0887f89c2651a96d756e63d45c233529a0d47f1",
+        "length_low-counterfactual-90.png": "65ab86cde3216f97eb9df9b3a08d3adb02e226f68e2fbca93ea9239bba255921"
+      },
+      "metrics": {
+        "true-35": 0.7856326633029513,
+        "true-90": 0.7853195755570023,
+        "counterfactual-35": 0.7853766547309028,
+        "counterfactual-90": 0.7832703766999422
+      },
+      "changed_pixels": {
+        "true-35": 12724,
+        "true-90": 12735,
+        "counterfactual-35": 12688,
+        "counterfactual-90": 12707
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 1.0608000000000002,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.72,
+        "rod_height": 0.12,
+        "initial_offset": 0.21760000000000002,
+        "friction": 0.10835093382262996,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "length_high-true-35.png": "8d644bf4789e8b0ef0ae0e966a9a7b6d3e26871177137682bcda08ec927530cf",
+        "length_high-true-90.png": "d67afaffcc5f2e77f605478ee756c5e1eae6531e914cf309d8435eabc9722d4b",
+        "length_high-counterfactual-35.png": "d861e30cfeeafe18a74f29bde3eb7334b5aaad1e9675a41886757e03216e6ee3",
+        "length_high-counterfactual-90.png": "7a9ff3cf6d0cea319fc00cace36b04f37193a53831fb980a783110f58727181a"
+      },
+      "metrics": {
+        "true-35": 0.28061308684172453,
+        "true-90": 0.2880605061848958,
+        "counterfactual-35": 0.28075776276765047,
+        "counterfactual-90": 0.28831538447627314
+      },
+      "changed_pixels": {
+        "true-35": 6977,
+        "true-90": 7036,
+        "counterfactual-35": 6975,
+        "counterfactual-90": 7024
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.08897311314984711,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "response_low-true-35.png": "0d5f87b31e867dbf3352a02fa26b6851113a4aedef0e418f4d9c3d7838508138",
+        "response_low-true-90.png": "527169fcc84d734744fb97ae8162b948df5f2d1e41fbba838c25a698c39beee6",
+        "response_low-counterfactual-35.png": "a65fdfcad8b2f6b4ea5f7e3e8f44af9ee893f0576407c79b3844e5d0a421b47d",
+        "response_low-counterfactual-90.png": "70e4f4aaba3e001e180fb14a87fc9b75e31e2865bb8db27b9fe1fb3876051ea4"
+      },
+      "metrics": {
+        "true-35": 0.0016733805338541667,
+        "true-90": 0.00744346336082176,
+        "counterfactual-35": 0.0004566333912037037,
+        "counterfactual-90": 0.008039686414930556
+      },
+      "changed_pixels": {
+        "true-35": 417,
+        "true-90": 462,
+        "counterfactual-35": 325,
+        "counterfactual-90": 445
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.15447456489296643,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "response_high-true-35.png": "e0c8e931a5f5f1c956128c0c758ee990f8c03def4a483659f166f23839d7edf5",
+        "response_high-true-90.png": "185f12dac611b101c98693a9f6e4be42e6e1d0f3745f66af999f2876063af630",
+        "response_high-counterfactual-35.png": "a7eef54dfd8470d41982a9c09a530fa9c7312dfb24549c1963a320412af36d80",
+        "response_high-counterfactual-90.png": "c041263b743693a01ef19fa08446f81beafb03c5a31c54d1cf275e8d7d8f4220"
+      },
+      "metrics": {
+        "true-35": 0.005458125361689815,
+        "true-90": 0.0021045826099537037,
+        "counterfactual-35": 0.0010585078486689814,
+        "counterfactual-90": 0.026068793402777776
+      },
+      "changed_pixels": {
+        "true-35": 415,
+        "true-90": 405,
+        "counterfactual-35": 359,
+        "counterfactual-90": 790
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "onset_low-true-35.png": "647326f36d3752092437ab1d72d5e90650db4e6061c63fcca2cdb8756a0d96ed",
+        "onset_low-true-90.png": "f742a5b9db768f80aaeddf900fb263add748b0a77fb6271c26e82eb0a33421d2",
+        "onset_low-counterfactual-35.png": "584b493bff7a6e4a9170d7e96ecdf81fb65f3b7bcbfb2de094398138bddf21c8",
+        "onset_low-counterfactual-90.png": "8b826ae30566132d42ee21853c1070d176d6927432c4f66a165938b769ae85b0"
+      },
+      "metrics": {
+        "true-35": 0.048356232819733794,
+        "true-90": 0.04593347620081018,
+        "counterfactual-35": 0.043262622974537035,
+        "counterfactual-90": 0.04848904079861111
+      },
+      "changed_pixels": {
+        "true-35": 1574,
+        "true-90": 1562,
+        "counterfactual-35": 1379,
+        "counterfactual-90": 1555
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "onset_high-true-35.png": "9590f54ff5cd3806c25628fdb9a48a498ed5e2cec5a048da02a756139d179e92",
+        "onset_high-true-90.png": "915febbb4605493fe340ff8f16b0f17c029fb2fe693886b68918f6eef02f0563",
+        "onset_high-counterfactual-35.png": "14aa7a971ec02a0bc28a86c7a687f0c08d5ef60315ab4edfc4a7885a1f490bd7",
+        "onset_high-counterfactual-90.png": "c72539e0ae6ba345996ca16fda19c8706c1c7cba903c1ee7cacc65f5760ec82b"
+      },
+      "metrics": {
+        "true-35": 0.04232618543836805,
+        "true-90": 0.046750669126157406,
+        "counterfactual-35": 0.03557162814670139,
+        "counterfactual-90": 0.046944512261284724
+      },
+      "changed_pixels": {
+        "true-35": 1315,
+        "true-90": 1363,
+        "counterfactual-35": 1216,
+        "counterfactual-90": 1374
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2025,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.2375,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "depth_low-true-35.png": "2800bfd40c35173bb3b0a0d80fa6adc27b597981a4cb10a90bd40ce4e86998fb",
+        "depth_low-true-90.png": "96c9707b858133ab65f7fdacc919b51db57fc2b983ee030135f2c0bf3a45baf7",
+        "depth_low-counterfactual-35.png": "e863073439a86a1c2f64563654f064a8224652b8a934051b862837b4f0c9978f",
+        "depth_low-counterfactual-90.png": "82ccd6cb74a9b6ee7b600a987fc83921ba457f1460d9c5baf196e26bfa8779c1"
+      },
+      "metrics": {
+        "true-35": 0.5890372947410301,
+        "true-90": 0.5920675772207754,
+        "counterfactual-35": 0.5886953848379629,
+        "counterfactual-90": 0.5858142994068287
+      },
+      "changed_pixels": {
+        "true-35": 18455,
+        "true-90": 18729,
+        "counterfactual-35": 18430,
+        "counterfactual-90": 18380
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2997,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.3275000000000001,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "depth_high-true-35.png": "738ff438fc49f0f8a432769a1d918f0ba087d61a9a06445f9695d318a935542e",
+        "depth_high-true-90.png": "2747f60df84a76021af346b69dfb933f3206588e559b6c09841853b9f8c774b6",
+        "depth_high-counterfactual-35.png": "08c431b41d48495631a197a1d902e668d121c6ca05b877f843892854a3aaa063",
+        "depth_high-counterfactual-90.png": "89403f09f0a7a931f08af79adcdb10f45def1428ca59980af3f1ce5d1d2e578b"
+      },
+      "metrics": {
+        "true-35": 0.24705787941261573,
+        "true-90": 0.2643783004195602,
+        "counterfactual-35": 0.2469143337673611,
+        "counterfactual-90": 0.26070375795717593
+      },
+      "changed_pixels": {
+        "true-35": 12740,
+        "true-90": 13263,
+        "counterfactual-35": 12730,
+        "counterfactual-90": 13005
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "appearance_low-true-35.png": "f3529f2d70004468ab07bbd221f4d2286391345295ef91af1eb79493a8933c68",
+        "appearance_low-true-90.png": "2d875c69baa8dcd89f5523f9ddb7f5f32636705b9cf7b9655cd9322eaa5a1a1b",
+        "appearance_low-counterfactual-35.png": "4c08570c7f616e93a9afcfa70795b38ca61f0f79c85e5c820e74148d6cd46ccf",
+        "appearance_low-counterfactual-90.png": "a4678e30b972478000993bda3089f4fd3c5e2ce7e2e201854eb3295afb3c7d52"
+      },
+      "metrics": {
+        "true-35": 0.6685796667028356,
+        "true-90": 0.6686514395254629,
+        "counterfactual-35": 0.668569494176794,
+        "counterfactual-90": 0.6685807969835069
+      },
+      "changed_pixels": {
+        "true-35": 478566,
+        "true-90": 478560,
+        "counterfactual-35": 478560,
+        "counterfactual-90": 478566
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "appearance_high-true-35.png": "c4439ef86e6a9030513aba79a377422d25ef5f958f22659ac0bb323e816c294b",
+        "appearance_high-true-90.png": "38dec4913b3c8a1739c74129f2462c4b313552192cb5fdc611870706c0f9efa2",
+        "appearance_high-counterfactual-35.png": "14392b47166ffc0d06f193a6fde80f923cd85212b15d0c2e4dceae0a0769618c",
+        "appearance_high-counterfactual-90.png": "1236ad8e6a8c5e31fca9d4bea26a9e0bb64f39bf61f9655066356011e3bfdb03"
+      },
+      "metrics": {
+        "true-35": 0.31891829879195605,
+        "true-90": 0.32032154224537035,
+        "counterfactual-35": 0.3188301368995949,
+        "counterfactual-90": 0.3184028908058449
+      },
+      "changed_pixels": {
+        "true-35": 50128,
+        "true-90": 50194,
+        "counterfactual-35": 50124,
+        "counterfactual-90": 50093
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "view_low-true-35.png": "2c7d71049108a1470ceb7154ffabe2d128dd08f11b2dc4ad294418caf7c064a5",
+        "view_low-true-90.png": "630689f76d81bedde490bfff0cf5a5ba1ca2d410f5a221c1bb3571632f90fcaa",
+        "view_low-counterfactual-35.png": "07607ffa2528eded7afd31a5181818ca481ac949d9093cf772889bc8dbd20f22",
+        "view_low-counterfactual-90.png": "dc21aba3956446005e4256556ccad6694bfbd1745200d6c5c1699e09ff7d0deb"
+      },
+      "metrics": {
+        "true-35": 3.5320977105034723,
+        "true-90": 3.5445584897641784,
+        "counterfactual-35": 3.53171228479456,
+        "counterfactual-90": 3.5306113914207176
+      },
+      "changed_pixels": {
+        "true-35": 502852,
+        "true-90": 503198,
+        "counterfactual-35": 502831,
+        "counterfactual-90": 502728
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "a": 0.9984000000000001,
+        "roller_radius": 0.2781,
+        "roller_z": 0.6,
+        "rod_half_length": 2.56,
+        "rod_height": 0.12,
+        "initial_offset": 0.2048,
+        "friction": 0.10197734948012231,
+        "surface_speed": 1.3075,
+        "drive_ramp": 0.3,
+        "slip_regularization": 0.012,
+        "solver_steps_per_frame": 20,
+        "time_scale": 1.0,
+        "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics."
+      },
+      "images": {
+        "view_high-true-35.png": "cd22e9361f49d42eaf5dd40543281fee3c19904600bb375e1c8d8c315d5118b4",
+        "view_high-true-90.png": "aae9747a98bbb995c8ebf728b30785f60a0403f0dfedead49a9435d468f72e8b",
+        "view_high-counterfactual-35.png": "facc1966d5bff49eeed48f9e5dda8122474220ecb6d1328e21f5ab715715d4d2",
+        "view_high-counterfactual-90.png": "b2324919dd6410355259cafe1550d474b238fae83b7a336605febc667632aa04"
+      },
+      "metrics": {
+        "true-35": 3.4311433015046298,
+        "true-90": 3.42732916937934,
+        "counterfactual-35": 3.432378133138021,
+        "counterfactual-90": 3.4404946786385997
+      },
+      "changed_pixels": {
+        "true-35": 422364,
+        "true-90": 422183,
+        "counterfactual-35": 422377,
+        "counterfactual-90": 422409
+      }
+    }
+  }
+}

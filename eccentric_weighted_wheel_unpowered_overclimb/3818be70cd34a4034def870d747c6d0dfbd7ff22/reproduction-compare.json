@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "comparison": "all four streams, exact 120 raw and decoded frame hashes",
+  "source_case": "eccentric_weighted_wheel_unpowered_overclimb_00000042",
+  "reproduced_case": "eccentric_weighted_wheel_unpowered_overclimb_00000042"
+}

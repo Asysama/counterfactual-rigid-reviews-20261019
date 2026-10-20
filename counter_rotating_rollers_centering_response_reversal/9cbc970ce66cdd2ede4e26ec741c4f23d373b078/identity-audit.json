@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "scope": "all 120 native masks and both-branch target framing, independent name whitelist; shared source geometry replay",
+  "cases": [
+    {
+      "case_id": "counter_rotating_rollers_centering_response_reversal_00000042",
+      "head_sha": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.19054041802883148,
+                0.503914475440979
+              ],
+              [
+                0.8575635552406311,
+                0.5479311347007751
+              ]
+            ],
+            [
+              [
+                0.19054041802883148,
+                0.503914475440979
+              ],
+              [
+                0.8575635552406311,
+                0.5479311347007751
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 24,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.19053420424461365,
+                0.5039695501327515
+              ],
+              [
+                0.8576037287712097,
+                0.5478759407997131
+              ]
+            ],
+            [
+              [
+                0.19054658710956573,
+                0.5039697885513306
+              ],
+              [
+                0.8576155304908752,
+                0.5478761792182922
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 75,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.14796295762062073,
+                0.5033382773399353
+              ],
+              [
+                0.8171058297157288,
+                0.5471130609512329
+              ]
+            ],
+            [
+              [
+                0.2006390392780304,
+                0.5042645931243896
+              ],
+              [
+                0.8673365712165833,
+                0.547912061214447
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 76,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.14702418446540833,
+                0.5033242702484131
+              ],
+              [
+                0.8162115812301636,
+                0.5470966696739197
+              ]
+            ],
+            [
+              [
+                0.20105642080307007,
+                0.5042740106582642
+              ],
+              [
+                0.8677366375923157,
+                0.5479158759117126
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.1453465223312378,
+                0.5034083724021912
+              ],
+              [
+                0.8146553039550781,
+                0.5469844341278076
+              ]
+            ],
+            [
+              [
+                0.2301533967256546,
+                0.5048720836639404
+              ],
+              [
+                0.8955983519554138,
+                0.5482480525970459
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "counter_rotating_rollers_centering_response_reversal_00000098",
+      "head_sha": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.2555992305278778,
+                0.4877833127975464
+              ],
+              [
+                0.793032169342041,
+                0.5422024726867676
+              ]
+            ],
+            [
+              [
+                0.2555992305278778,
+                0.4877833127975464
+              ],
+              [
+                0.793032169342041,
+                0.5422024726867676
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 28,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.2556300759315491,
+                0.48772409558296204
+              ],
+              [
+                0.7929979562759399,
+                0.542243480682373
+              ]
+            ],
+            [
+              [
+                0.2556435167789459,
+                0.4877234697341919
+              ],
+              [
+                0.7930126786231995,
+                0.5422429442405701
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 74,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.2201194316148758,
+                0.4893176853656769
+              ],
+              [
+                0.7539231777191162,
+                0.5437079668045044
+              ]
+            ],
+            [
+              [
+                0.2651992440223694,
+                0.487173467874527
+              ],
+              [
+                0.8033868670463562,
+                0.5419360399246216
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 75,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.21943525969982147,
+                0.48934829235076904
+              ],
+              [
+                0.7531694769859314,
+                0.5437363982200623
+              ]
+            ],
+            [
+              [
+                0.2656421661376953,
+                0.48715007305145264
+              ],
+              [
+                0.8038704991340637,
+                0.5419198870658875
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_centre_mark",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.23557691276073456,
+                0.4884974956512451
+              ],
+              [
+                0.7707549929618835,
+                0.543173611164093
+              ]
+            ],
+            [
+              [
+                0.3004969358444214,
+                0.48538297414779663
+              ],
+              [
+                0.8420539498329163,
+                0.5406025052070618
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

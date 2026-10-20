@@ -1,0 +1,15 @@
+# eccentric_weighted_wheel_unpowered_overclimb: mechanics and audit contract
+
+The wheel is one rigid planar assembly with a fixed ballast and no-slip rolling coordinate theta; travel s=s0+R*theta. The ballast phase is alpha=alpha0+theta. With tangent t=(cos(beta),0,sin(beta)) and normal n=(-sin(beta),0,cos(beta)), the axle is C=origin+t*s+n*R and ballast displacement is d*(sin(alpha)*t+cos(alpha)*n). Combined eccentricity e=m_ballast*d/m. Effective inertia M(theta)=I_geo+m*R^2+2*m*R*e*cos(alpha), potential U=m*g*(R*theta*sin(beta)+e*cos(alpha-beta)). Passive equation: M*theta_ddot+0.5*M_prime*omega^2+U_prime+damping*omega=0. The normal branch has no positive input work and can initially climb while COM descends. CF starts only after the first COM-potential minimum and applies a single unpowered generalized torque that tracks a positive angular speed; rolling and rigid geometry remain intact. The evidence requires rising above release potential and beyond the entire passive turning range. This is a reduced mechanics model, not Blender dynamics. Ideal static friction supplies rolling without work; independent checks must confirm positive normal reaction and a feasible finite friction demand. The narrow ballast has steel-like density 7800 kg/m^3 and is offset in depth to clear the spokes; a bracket and axial mount make the fixed connection visible. Planar symmetry/support is assumed.
+
+## Source of motion
+One-DOF rigid no-slip rolling with a fixed eccentric ballast, exact mass moment and positive damping. Gravitational potential uses the combined centre of mass, not axle height. CF adds one unpowered torque controller after a geometry-derived event. Wheel and ballast remain a single rigid assembly; input work is zero in True. Blender renders stored integrated states.
+
+## Temporal/causal contract
+The native output has 120 samples at t=f/24 seconds. Onset is sampled independently from geometry and response. All ordinary parameters, motor/support input trajectories and camera motions are shared. The first changed RGB frame is discovered from actual pixels; the mask begins there. The CF operator is unpowered_uphill_servo_torque. Its consequences do not count as new independent operators.
+
+## Static and rendered scale evidence
+The 1,000,000 finite recipes vary four primary physical axes and two nuisance axes. 100,000 unique validated recipes is a CPU-only static target, not a claim of 100,000 rendered outputs. Rendered one-axis perturbations must show real image changes. Corner trajectories and every submitted formal seed must complete the stated outcomes. Failures must stop generation rather than be accepted by metadata alone.
+
+## Required review evidence
+Two native exact-head seed cases; all four decoded media streams per case; complete object-only mask replay; mechanics checks independent of the generator predicate; prompt and complete-motion inspection; native edge checks; runtime witness and case mapping; all artifact hashes; public playback and publication receipts. Source correctness and scale readiness are reported separately. No PASS is implied by this design document.

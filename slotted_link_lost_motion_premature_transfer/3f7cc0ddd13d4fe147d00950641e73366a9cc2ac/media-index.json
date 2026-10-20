@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "slotted_link_lost_motion_premature_transfer_00000042",
+    "seed": 42,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/slotted_link_lost_motion_premature_transfer_00000042/true/video_browser.mp4",
+    "browser_sha256": "5c2c27d1d425512f633196d85a6c1cf3e7a0b1b10ecce2c25b5c4e1198bdc07a",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/slotted_link_lost_motion_premature_transfer-3f7cc0ddd13d4fe147d00950641e73366a9cc2ac-42-true.mp4",
+    "native_sha256": "16598ea352656f8263966d840fc6831834159e66414f178fdd6e8031f1fe84fb"
+  },
+  {
+    "case_id": "slotted_link_lost_motion_premature_transfer_00000042",
+    "seed": 42,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/slotted_link_lost_motion_premature_transfer_00000042/counterfactual_contact_free_slot_frame_transfer/video_browser.mp4",
+    "browser_sha256": "fb315361fa51fcf3ee1f8eea358eeac33830cda23100f8ec3e3c2de2536b02ab",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/slotted_link_lost_motion_premature_transfer-3f7cc0ddd13d4fe147d00950641e73366a9cc2ac-42-video.mp4",
+    "native_sha256": "00406d2dfa7143ab2aefba6275a083742025dfe201573ed543ab8af292ba4d1a"
+  },
+  {
+    "case_id": "slotted_link_lost_motion_premature_transfer_00000042",
+    "seed": 42,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/slotted_link_lost_motion_premature_transfer_00000042/counterfactual_contact_free_slot_frame_transfer/mask_browser.mp4",
+    "browser_sha256": "4676d85c438373cb2b88ee0d9802a068471988f3d85187c771d9865ea2c87549",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/slotted_link_lost_motion_premature_transfer-3f7cc0ddd13d4fe147d00950641e73366a9cc2ac-42-mask.mp4",
+    "native_sha256": "814978154e4bfcc3e8629935d4d68053a6b9438bf1b7875e164e9d0fcbc58e90"
+  },
+  {
+    "case_id": "slotted_link_lost_motion_premature_transfer_00000042",
+    "seed": 42,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/slotted_link_lost_motion_premature_transfer_00000042/counterfactual_contact_free_slot_frame_transfer/mask_overlay_browser.mp4",
+    "browser_sha256": "f8b9cd1d0df1fb7202bf4e25f27671eef0d03252b8fc3ca3fbf85e1df23b4ce1",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/slotted_link_lost_motion_premature_transfer-3f7cc0ddd13d4fe147d00950641e73366a9cc2ac-42-mask_overlay.mp4",
+    "native_sha256": "51236ea8e557c77376807e68fe4351cdf25d9ac216f7863243bc704d4ff9a66e"
+  },
+  {
+    "case_id": "slotted_link_lost_motion_premature_transfer_00000098",
+    "seed": 98,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/slotted_link_lost_motion_premature_transfer_00000098/true/video_browser.mp4",
+    "browser_sha256": "e04d0d13f97bc09e29861459ca547a0bc34466bf5301f30da824b1834c1e1bf5",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/slotted_link_lost_motion_premature_transfer-3f7cc0ddd13d4fe147d00950641e73366a9cc2ac-98-true.mp4",
+    "native_sha256": "47ffd6df68ff39bf9c5291ba75fc877afbf5288346ae8d9d11ef30f29d280603"
+  },
+  {
+    "case_id": "slotted_link_lost_motion_premature_transfer_00000098",
+    "seed": 98,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/slotted_link_lost_motion_premature_transfer_00000098/counterfactual_contact_free_slot_frame_transfer/video_browser.mp4",
+    "browser_sha256": "80f56f521bb6861c196ecf8999f79220248023a20c64e62e26334339c66c2d48",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/slotted_link_lost_motion_premature_transfer-3f7cc0ddd13d4fe147d00950641e73366a9cc2ac-98-video.mp4",
+    "native_sha256": "e4c393448fde69228625ea0e1bb9e7093ebbb8f2e5e1564a3767b93c208cdb4f"
+  },
+  {
+    "case_id": "slotted_link_lost_motion_premature_transfer_00000098",
+    "seed": 98,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/slotted_link_lost_motion_premature_transfer_00000098/counterfactual_contact_free_slot_frame_transfer/mask_browser.mp4",
+    "browser_sha256": "da51a57ef36d07192ef8f825aa821641aebd68211997b79fe63b05a149fcaea8",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/slotted_link_lost_motion_premature_transfer-3f7cc0ddd13d4fe147d00950641e73366a9cc2ac-98-mask.mp4",
+    "native_sha256": "553bb970f5e16eb02d2bd30c7664835853b0aab1d464084f32a3fe174e0c8a38"
+  },
+  {
+    "case_id": "slotted_link_lost_motion_premature_transfer_00000098",
+    "seed": 98,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/slotted_link_lost_motion_premature_transfer/3f7cc0ddd13d4fe147d00950641e73366a9cc2ac/slotted_link_lost_motion_premature_transfer_00000098/counterfactual_contact_free_slot_frame_transfer/mask_overlay_browser.mp4",
+    "browser_sha256": "7b05c2652fad7077013b99f42bc4ffea5017c7759f071828890b3e8cb68e770d",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/slotted_link_lost_motion_premature_transfer-3f7cc0ddd13d4fe147d00950641e73366a9cc2ac-98-mask_overlay.mp4",
+    "native_sha256": "3dfb79ef4bb8532767b0a606d4107fd23edba59d355844b72d7df949e2028055"
+  }
+]

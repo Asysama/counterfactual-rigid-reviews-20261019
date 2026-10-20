@@ -1,0 +1,336 @@
+{
+  "status": "PASS",
+  "scope": "all 120 native masks and both-branch target framing, independent name whitelist; shared source geometry replay",
+  "cases": [
+    {
+      "case_id": "sliding_supports_weighted_rod_balance_failure_00000042",
+      "head_sha": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.15603655576705933,
+                0.5602490305900574
+              ],
+              [
+                0.8072814345359802,
+                0.6117054224014282
+              ]
+            ],
+            [
+              [
+                0.15603655576705933,
+                0.5602490305900574
+              ],
+              [
+                0.8072814345359802,
+                0.6117054224014282
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 32,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.1473042517900467,
+                0.5601992011070251
+              ],
+              [
+                0.7989922165870667,
+                0.6115456223487854
+              ]
+            ],
+            [
+              [
+                0.14732138812541962,
+                0.5601994395256042
+              ],
+              [
+                0.7990085482597351,
+                0.6115458607673645
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 63,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.040137361735105515,
+                0.5586546659469604
+              ],
+              [
+                0.6967359185218811,
+                0.6101207733154297
+              ]
+            ],
+            [
+              [
+                0.2660069465637207,
+                0.4919361174106598
+              ],
+              [
+                0.8902332782745361,
+                0.6639701724052429
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 64,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.036233652383089066,
+                0.5585989952087402
+              ],
+              [
+                0.6930088996887207,
+                0.6100698709487915
+              ]
+            ],
+            [
+              [
+                0.27306652069091797,
+                0.47517192363739014
+              ],
+              [
+                0.8875691890716553,
+                0.6765945553779602
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.04682467505335808,
+                0.5589495301246643
+              ],
+              [
+                0.7030516862869263,
+                0.6101633906364441
+              ]
+            ],
+            [
+              [
+                0.3024120628833771,
+                0.39054545760154724
+              ],
+              [
+                0.8637256622314453,
+                0.6914278864860535
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+      "head_sha": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.2278369516134262,
+                0.5562945008277893
+              ],
+              [
+                0.7489800453186035,
+                0.6011592745780945
+              ]
+            ],
+            [
+              [
+                0.2278369516134262,
+                0.5562945008277893
+              ],
+              [
+                0.7489800453186035,
+                0.6011592745780945
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 37,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.21907809376716614,
+                0.5565757751464844
+              ],
+              [
+                0.7392657399177551,
+                0.601419985294342
+              ]
+            ],
+            [
+              [
+                0.2190968543291092,
+                0.5565750598907471
+              ],
+              [
+                0.7392862439155579,
+                0.6014193296432495
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 64,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.14542463421821594,
+                0.5594889521598816
+              ],
+              [
+                0.6589800119400024,
+                0.6039869785308838
+              ]
+            ],
+            [
+              [
+                0.3151148855686188,
+                0.4900965392589569
+              ],
+              [
+                0.828511655330658,
+                0.6531102061271667
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 65,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.14241577684879303,
+                0.5596085786819458
+              ],
+              [
+                0.6557673215866089,
+                0.6040922999382019
+              ]
+            ],
+            [
+              [
+                0.32385924458503723,
+                0.4740697145462036
+              ],
+              [
+                0.8298013806343079,
+                0.6625515222549438
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_fixed_weight",
+            "target_geometric_midpoint",
+            "target_rod"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.13636796176433563,
+                0.5597950220108032
+              ],
+              [
+                0.6490867733955383,
+                0.6042755842208862
+              ]
+            ],
+            [
+              [
+                0.3767014443874359,
+                0.3670763373374939
+              ],
+              [
+                0.8184654116630554,
+                0.6693386435508728
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

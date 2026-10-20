@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "3e29bd9ab7905632878c4d1d5c35e2efbfa8f143fa86519be41696dd19a37460": {
+      "path": "sliding_supports_weighted_rod_balance_failure-runtime.json",
+      "sha256": "3e29bd9ab7905632878c4d1d5c35e2efbfa8f143fa86519be41696dd19a37460",
+      "generator": "sliding_supports_weighted_rod_balance_failure",
+      "case_set": "native-42-98",
+      "source_commit": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444"
+    }
+  },
+  "cases": {
+    "sliding_supports_weighted_rod_balance_failure_00000042": {
+      "witness_id": "3e29bd9ab7905632878c4d1d5c35e2efbfa8f143fa86519be41696dd19a37460",
+      "metadata_path": "sliding_supports_weighted_rod_balance_failure_00000042/metadata.json",
+      "metadata_sha256": "cd7a8864e0e3c717e607fd8caa093d3da1ab9f761f5366a40a3dcdf6d3f925df"
+    },
+    "sliding_supports_weighted_rod_balance_failure_00000098": {
+      "witness_id": "3e29bd9ab7905632878c4d1d5c35e2efbfa8f143fa86519be41696dd19a37460",
+      "metadata_path": "sliding_supports_weighted_rod_balance_failure_00000098/metadata.json",
+      "metadata_sha256": "d021a0725f8cf8ad3a87b5c1cadceb414d6b91a0a5e01c41c7d1d025f0643e79"
+    }
+  },
+  "failures": []
+}

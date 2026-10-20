@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "arago_disk_magnetic_drag_reversal_00000042",
+    "seed": 42,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/arago_disk_magnetic_drag_reversal_00000042/true/video_browser.mp4",
+    "browser_sha256": "3569485f76b1143ad2589a7a4c1555d159c7cb93f3db299a6a27e2452be03859",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/arago_disk_magnetic_drag_reversal-9b869369282e10bf0a2499008af20eb1a7faa554-42-true.mp4",
+    "native_sha256": "de5a7a7ff21135f2b337cc4a058bf7c0fe3fe2362540ce1e8a6c216ae3ca9a94"
+  },
+  {
+    "case_id": "arago_disk_magnetic_drag_reversal_00000042",
+    "seed": 42,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/arago_disk_magnetic_drag_reversal_00000042/counterfactual_reverse_eddy_current_drag_torque/video_browser.mp4",
+    "browser_sha256": "cab69a687df6dad415d1d19f70dce882b8985daf368cd508279a29781c55dd56",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/arago_disk_magnetic_drag_reversal-9b869369282e10bf0a2499008af20eb1a7faa554-42-video.mp4",
+    "native_sha256": "6c8e9ae76321f7063c4c0e24034c06a52ba9056a7a41420e05dd8324e72fe6ab"
+  },
+  {
+    "case_id": "arago_disk_magnetic_drag_reversal_00000042",
+    "seed": 42,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/arago_disk_magnetic_drag_reversal_00000042/counterfactual_reverse_eddy_current_drag_torque/mask_browser.mp4",
+    "browser_sha256": "db9c32ca86eb3bdc3e9b77d73c6e7ae403a5973cfe932dd57b40300e17ec41ff",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/arago_disk_magnetic_drag_reversal-9b869369282e10bf0a2499008af20eb1a7faa554-42-mask.mp4",
+    "native_sha256": "307f9c274a97c4d0d68bf0d279cb7d5b7816d26ce88042b9ebd4470dfaab9229"
+  },
+  {
+    "case_id": "arago_disk_magnetic_drag_reversal_00000042",
+    "seed": 42,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/arago_disk_magnetic_drag_reversal_00000042/counterfactual_reverse_eddy_current_drag_torque/mask_overlay_browser.mp4",
+    "browser_sha256": "06801adb850c6494285feb92848c1346ac31c73768086419f7e2fbf502d36404",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/arago_disk_magnetic_drag_reversal-9b869369282e10bf0a2499008af20eb1a7faa554-42-mask_overlay.mp4",
+    "native_sha256": "d237d80dc39e2f69906f2f237bdb32d55ca35a441738936d6494a479d77905a3"
+  },
+  {
+    "case_id": "arago_disk_magnetic_drag_reversal_00000098",
+    "seed": 98,
+    "stream": "True",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/arago_disk_magnetic_drag_reversal_00000098/true/video_browser.mp4",
+    "browser_sha256": "37710734c28d037215a4d9f23c5fa1fb4f2c4321caa2e6ec634a25c58c2cbdc8",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/arago_disk_magnetic_drag_reversal-9b869369282e10bf0a2499008af20eb1a7faa554-98-true.mp4",
+    "native_sha256": "f89123e178cb94abf360f378010d7a299d6719a721f10f25f2c1829b10e93599"
+  },
+  {
+    "case_id": "arago_disk_magnetic_drag_reversal_00000098",
+    "seed": 98,
+    "stream": "Counterfactual",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/arago_disk_magnetic_drag_reversal_00000098/counterfactual_reverse_eddy_current_drag_torque/video_browser.mp4",
+    "browser_sha256": "01358f24ee48572ef14883471dc5e3094cb9352a2b8f6e50031e862462b7ca1b",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/arago_disk_magnetic_drag_reversal-9b869369282e10bf0a2499008af20eb1a7faa554-98-video.mp4",
+    "native_sha256": "6641e412252e9f852e250e90c18fc8f0debcdad0c949fa09edc85fe8ffd084c2"
+  },
+  {
+    "case_id": "arago_disk_magnetic_drag_reversal_00000098",
+    "seed": 98,
+    "stream": "Binary mask",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/arago_disk_magnetic_drag_reversal_00000098/counterfactual_reverse_eddy_current_drag_torque/mask_browser.mp4",
+    "browser_sha256": "35f4b8d87f4f8e46eb73a48f9feb74cde04010d4ace70b423fc26e6409e95d0c",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/arago_disk_magnetic_drag_reversal-9b869369282e10bf0a2499008af20eb1a7faa554-98-mask.mp4",
+    "native_sha256": "37648169c15d9262190e308187892d8749890016db8183597bb79a7ba1622ef9"
+  },
+  {
+    "case_id": "arago_disk_magnetic_drag_reversal_00000098",
+    "seed": 98,
+    "stream": "Red overlay",
+    "browser_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal/9b869369282e10bf0a2499008af20eb1a7faa554/arago_disk_magnetic_drag_reversal_00000098/counterfactual_reverse_eddy_current_drag_torque/mask_overlay_browser.mp4",
+    "browser_sha256": "fa50bd5133b801a5242d375181dc4ebb0f46cc1d9733e2da97fb5c7cb4d9359f",
+    "native_url": "https://github.com/Asysama/counterfactual-rigid-reviews-20261019/releases/download/native-20261019/arago_disk_magnetic_drag_reversal-9b869369282e10bf0a2499008af20eb1a7faa554-98-mask_overlay.mp4",
+    "native_sha256": "a2f9533dc35c0387ed72a56a3893d44933787915afac48b3a16d43e72d3c8292"
+  }
+]

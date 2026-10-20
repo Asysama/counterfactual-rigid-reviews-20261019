@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "0ea803a1d375bb88a3dbd363b87028b61ebadfaa1d07d43a34d45ab9821fc447": {
+      "path": "slotted_link_lost_motion_premature_transfer-runtime.json",
+      "sha256": "0ea803a1d375bb88a3dbd363b87028b61ebadfaa1d07d43a34d45ab9821fc447",
+      "generator": "slotted_link_lost_motion_premature_transfer",
+      "case_set": "native-42-98-grounded-actuator",
+      "source_commit": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac"
+    }
+  },
+  "cases": {
+    "slotted_link_lost_motion_premature_transfer_00000042": {
+      "witness_id": "0ea803a1d375bb88a3dbd363b87028b61ebadfaa1d07d43a34d45ab9821fc447",
+      "metadata_path": "slotted_link_lost_motion_premature_transfer_00000042/metadata.json",
+      "metadata_sha256": "7e903e8e7428eca0d2f14a2863d8a16ed1f09df532ae9f27631a6b4b7b6c45d5"
+    },
+    "slotted_link_lost_motion_premature_transfer_00000098": {
+      "witness_id": "0ea803a1d375bb88a3dbd363b87028b61ebadfaa1d07d43a34d45ab9821fc447",
+      "metadata_path": "slotted_link_lost_motion_premature_transfer_00000098/metadata.json",
+      "metadata_sha256": "8cdebe98634c456bf4b46ba431982ccb5ca5e7937f289cc1f5d1e6e7973cb72b"
+    }
+  },
+  "failures": []
+}

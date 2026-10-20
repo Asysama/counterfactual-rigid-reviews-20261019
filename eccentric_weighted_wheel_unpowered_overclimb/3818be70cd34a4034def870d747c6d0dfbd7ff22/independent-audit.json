@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "scope": "all formal decoded frames, saved state and independent mechanics; visual review and identity replay separate",
+  "cases": [
+    {
+      "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000042",
+      "head_sha": "3818be70cd34a4034def870d747c6d0dfbd7ff22",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 52,
+      "evidence": 79,
+      "mask_pixels_at_evidence": 36316,
+      "min_mask_pixels_active": 35753,
+      "minimum_adjacent_rgb_changed_pixels": 5058,
+      "mechanics": {
+        "true_max_static_friction_demand": 0.39000143104292967,
+        "counterfactual_max_static_friction_demand": 0.31164306826089655
+      }
+    },
+    {
+      "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000098",
+      "head_sha": "3818be70cd34a4034def870d747c6d0dfbd7ff22",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 54,
+      "evidence": 72,
+      "mask_pixels_at_evidence": 25026,
+      "min_mask_pixels_active": 24590,
+      "minimum_adjacent_rgb_changed_pixels": 5227,
+      "mechanics": {
+        "true_max_static_friction_demand": 0.34912807272031837,
+        "counterfactual_max_static_friction_demand": 0.31531735401978117
+      }
+    }
+  ]
+}

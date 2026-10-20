@@ -1,0 +1,146 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      0.7200000286102295
+    ],
+    "pos": [
+      1.1943196058273315,
+      -9.800000190734863,
+      4.444000244140625
+    ],
+    "projection": "perspective"
+  },
+  "category": "counter_rotating_rollers",
+  "descriptions": {
+    "counterfactual": "A horizontal rigid rod rests off-centre on two powered rollers. The roller surfaces move toward the gap between them. After the rollers start, the rod instead slides farther away from the centre without any other drive touching it.",
+    "true": "A horizontal rigid rod rests off-centre on two powered rollers. The roller surfaces move toward the gap between them. After the rollers start, the rod slides back through the centre and begins an ordinary restoring oscillation."
+  },
+  "evidence_frame": 74,
+  "first_changed_frame": 28,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench stored-state replay",
+    "git": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078",
+    "motion_authority": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics.",
+    "source_hashes": {
+      "engine/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "engine/geometry.py": "3993ed21626b19ad94bc99fe105a70818b63d6292bf22f9f33f2ec935f4b134b",
+      "engine/media.py": "15f64f5bf7beeb21363e29cdf5a872338dec1d7f932bca1cee2619b239eff133",
+      "engine/operators.py": "d01167fe493628a15910565e904a6921c4fcdbf80aba7802fb02c90586256a30",
+      "engine/run.py": "5523028649ec4fd0ca98f07ad9944bb2e0814c4e7c282387948e2d715d4663a5",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "f3a029114b1f1f9a0654c83353330f2fc97d692e26c8ca2eac8345f5fd368540",
+      "src/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "src/helpers.py": "bc7f4fb8a75d68ab426173c7cadc460e5c3354d619497f599bf4930edb94df0b",
+      "src/phenomenon.py": "49c52b9ecfcc68d1cfb5bc75c511debc60b015b9c446aa62f9de1ae8d94db9f7",
+      "src/scaling.py": "2bdafae6359ff1bca2adaa1dd665b7b2680c899403724dda9d3566d9c15dd9e1",
+      "src/violation.py": "6b451018f8b3187e43232b2b78b1754f0f38e0c6aca7f6c8cc506bc5a43888ef",
+      "src/visual.py": "815d963f6c363bcf1075dbe62880f83206e58c7b79ded992200b1b459c0bbf28",
+      "tests/test_design.py": "22946463f0dc48db10065c36fd08ea4b54b6cd53e8637c30e59206a6020c24e5"
+    }
+  },
+  "intervention_frame": 28,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "target_centre_mark",
+      "target_rod"
+    ],
+    "target_ontology": [
+      "rigid rod and attached painted centre mark"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 28,
+  "onset_frame": 28,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_negative_kinetic_friction_after_drive_start/mask.mp4",
+      "mask_overlay": "counterfactual_negative_kinetic_friction_after_drive_start/mask_overlay.mp4",
+      "prompt": "counterfactual_negative_kinetic_friction_after_drive_start/prompt.txt",
+      "trajectory": "counterfactual_negative_kinetic_friction_after_drive_start/trajectory.npz",
+      "video": "counterfactual_negative_kinetic_friction_after_drive_start/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "counter_rotating_rollers_centering_response_reversal",
+  "phenomenon_data": {
+    "scene_params": {
+      "a": 0.8112,
+      "appearance": 8,
+      "depth": 0.75,
+      "drive_ramp": 0.3,
+      "friction": 0.12551058397553522,
+      "gravity": 9.81,
+      "initial_offset": 0.16640000000000002,
+      "length": 1.04,
+      "model": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics.",
+      "onset": 27,
+      "response": 1.12,
+      "rod_half_length": 2.08,
+      "rod_height": 0.12,
+      "roller_radius": 0.2025,
+      "roller_z": 0.6,
+      "slip_regularization": 0.012,
+      "solver_steps_per_frame": 20,
+      "surface_speed": 1.2375,
+      "time_scale": 1.0,
+      "view": 8
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "A horizontal rigid rod rests off-centre on two powered rollers. The roller surfaces move toward the gap between them. After the rollers start, the rod slides back through the centre and begins an ordinary restoring oscillation.",
+        "A horizontal rigid rod rests off-centre on two powered rollers. The roller surfaces move toward the gap between them. After the rollers start, the rod instead slides farther away from the centre without any other drive touching it."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "A horizontal rigid rod rests off-centre on two powered rollers. The roller surfaces move toward the gap between them. After the rollers start, the rod slides back through the centre and begins an ordinary restoring oscillation."
+        ],
+        "violation_if_true": [
+          "A horizontal rigid rod rests off-centre on two powered rollers. The roller surfaces move toward the gap between them. After the rollers start, the rod instead slides farther away from the centre without any other drive touching it."
+        ]
+      },
+      "violation_types": [
+        "negative_kinetic_friction_after_drive_start"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "counter_rotating_rollers_centering_response_reversal_00000098",
+  "timebase": {
+    "internal_dt": 0.0020833333333333333,
+    "internal_substeps": 20,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "Finite-thickness horizontal rigid rod on two driven cylindrical supports. Normal reactions enforce vertical and angular equilibrium. Regularized kinetic friction uses the actual two slip velocities; the one operator changes its coefficient to -0.15 times its normal value. This is generator-owned reduced mechanics, not native Blender dynamics.",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "negative_kinetic_friction_after_drive_start"
+}

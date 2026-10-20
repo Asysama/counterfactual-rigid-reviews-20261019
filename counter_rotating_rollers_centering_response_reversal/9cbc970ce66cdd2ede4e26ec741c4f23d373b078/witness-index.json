@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "1b5b95f6a498f94298f9a98a01c2349f851f78eae18f003c0ce2708b97228947": {
+      "path": "counter_rotating_rollers_centering_response_reversal-runtime.json",
+      "sha256": "1b5b95f6a498f94298f9a98a01c2349f851f78eae18f003c0ce2708b97228947",
+      "generator": "counter_rotating_rollers_centering_response_reversal",
+      "case_set": "native-42-98",
+      "source_commit": "9cbc970ce66cdd2ede4e26ec741c4f23d373b078"
+    }
+  },
+  "cases": {
+    "counter_rotating_rollers_centering_response_reversal_00000042": {
+      "witness_id": "1b5b95f6a498f94298f9a98a01c2349f851f78eae18f003c0ce2708b97228947",
+      "metadata_path": "counter_rotating_rollers_centering_response_reversal_00000042/metadata.json",
+      "metadata_sha256": "63ea4e8b3508fd96f323f15629ba678a53cc49c7cf1eb7bcc7c0bcbe1f223839"
+    },
+    "counter_rotating_rollers_centering_response_reversal_00000098": {
+      "witness_id": "1b5b95f6a498f94298f9a98a01c2349f851f78eae18f003c0ce2708b97228947",
+      "metadata_path": "counter_rotating_rollers_centering_response_reversal_00000098/metadata.json",
+      "metadata_sha256": "f28f062c1edbbb585082c2205d7e62953dc202699743cb954d7ace30f69b4f40"
+    }
+  },
+  "failures": []
+}

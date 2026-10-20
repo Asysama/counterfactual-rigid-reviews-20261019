@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "head_sha": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+  "scope": "Independent stricter accepted-seed completion: True is horizontal and stationary within the support interval; CF settles tipped on the collidable platform",
+  "cases": [
+    {
+      "seed": 42,
+      "branch": "true",
+      "max_angle": 1.9302527576314787e-08,
+      "max_late_angle": 1.8925760514321155e-08,
+      "final_com_x": -0.019644001688079338,
+      "final_support_interval": [
+        -0.14699999999999996,
+        0.14699999999999996
+      ],
+      "final_velocity": [
+        1.148825864633864e-15,
+        0.0,
+        8.753414659778969e-15
+      ]
+    },
+    {
+      "seed": 42,
+      "branch": "counterfactual",
+      "max_angle": 0.5501308486252041,
+      "max_late_angle": 0.49655147568287866,
+      "final_com_x": 1.3441051373067971,
+      "final_support_interval": [
+        -0.14699999999999996,
+        0.14699999999999996
+      ],
+      "final_velocity": [
+        2.2488040230003006e-14,
+        0.0,
+        4.0228237407902157e-14
+      ]
+    },
+    {
+      "seed": 98,
+      "branch": "true",
+      "max_angle": 1.3225648354264763e-09,
+      "max_late_angle": 1.3225648354264763e-09,
+      "final_com_x": -0.028833889101843257,
+      "final_support_interval": [
+        -0.14699999999999996,
+        0.14699999999999996
+      ],
+      "final_velocity": [
+        -5.5631847769944815e-15,
+        0.0,
+        -9.553469126899472e-14
+      ]
+    },
+    {
+      "seed": 98,
+      "branch": "counterfactual",
+      "max_angle": 0.6174805729073821,
+      "max_late_angle": 0.5669093824197602,
+      "final_com_x": 1.3269561046806007,
+      "final_support_interval": [
+        -0.14699999999999996,
+        0.14699999999999996
+      ],
+      "final_velocity": [
+        2.3735728597625656e-14,
+        0.0,
+        3.554795346971673e-14
+      ]
+    }
+  ]
+}

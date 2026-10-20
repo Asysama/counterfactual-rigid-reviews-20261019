@@ -1,0 +1,1609 @@
+{
+  "status": "PASS",
+  "scope": "100 deterministic stratified sampled trajectories, no rendered-media claim",
+  "generator": "slotted_link_lost_motion_premature_transfer",
+  "head_sha": "3f7cc0ddd13d4fe147d00950641e73366a9cc2ac",
+  "seconds": 0.021119181999893044,
+  "cases": [
+    {
+      "seed": 45638,
+      "profile": {
+        "profile_id": 512051,
+        "axis_buckets": {
+          "length": 1,
+          "response": 5,
+          "onset": 0,
+          "depth": 2,
+          "appearance": 1,
+          "view": 5
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 23600,
+      "profile": {
+        "profile_id": 993129,
+        "axis_buckets": {
+          "length": 9,
+          "response": 2,
+          "onset": 1,
+          "depth": 3,
+          "appearance": 9,
+          "view": 9
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 36480,
+      "profile": {
+        "profile_id": 989849,
+        "axis_buckets": {
+          "length": 9,
+          "response": 4,
+          "onset": 8,
+          "depth": 9,
+          "appearance": 8,
+          "view": 9
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 37
+    },
+    {
+      "seed": 34905,
+      "profile": {
+        "profile_id": 517424,
+        "axis_buckets": {
+          "length": 4,
+          "response": 2,
+          "onset": 4,
+          "depth": 7,
+          "appearance": 1,
+          "view": 5
+        }
+      },
+      "intervention_frame": 25,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 40925,
+      "profile": {
+        "profile_id": 189804,
+        "axis_buckets": {
+          "length": 4,
+          "response": 0,
+          "onset": 8,
+          "depth": 9,
+          "appearance": 8,
+          "view": 1
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 3922,
+      "profile": {
+        "profile_id": 163047,
+        "axis_buckets": {
+          "length": 7,
+          "response": 4,
+          "onset": 0,
+          "depth": 3,
+          "appearance": 6,
+          "view": 1
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 29
+    },
+    {
+      "seed": 6005,
+      "profile": {
+        "profile_id": 658324,
+        "axis_buckets": {
+          "length": 4,
+          "response": 2,
+          "onset": 3,
+          "depth": 8,
+          "appearance": 5,
+          "view": 6
+        }
+      },
+      "intervention_frame": 24,
+      "evidence_frame": 33
+    },
+    {
+      "seed": 19080,
+      "profile": {
+        "profile_id": 199249,
+        "axis_buckets": {
+          "length": 9,
+          "response": 4,
+          "onset": 2,
+          "depth": 9,
+          "appearance": 9,
+          "view": 1
+        }
+      },
+      "intervention_frame": 23,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 63634,
+      "profile": {
+        "profile_id": 22375,
+        "axis_buckets": {
+          "length": 5,
+          "response": 7,
+          "onset": 3,
+          "depth": 2,
+          "appearance": 2,
+          "view": 0
+        }
+      },
+      "intervention_frame": 24,
+      "evidence_frame": 32
+    },
+    {
+      "seed": 73002,
+      "profile": {
+        "profile_id": 207567,
+        "axis_buckets": {
+          "length": 7,
+          "response": 6,
+          "onset": 5,
+          "depth": 7,
+          "appearance": 0,
+          "view": 2
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 33
+    },
+    {
+      "seed": 93714,
+      "profile": {
+        "profile_id": 225895,
+        "axis_buckets": {
+          "length": 5,
+          "response": 9,
+          "onset": 8,
+          "depth": 5,
+          "appearance": 2,
+          "view": 2
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 56281,
+      "profile": {
+        "profile_id": 793968,
+        "axis_buckets": {
+          "length": 8,
+          "response": 6,
+          "onset": 9,
+          "depth": 3,
+          "appearance": 9,
+          "view": 7
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 55839,
+      "profile": {
+        "profile_id": 293770,
+        "axis_buckets": {
+          "length": 0,
+          "response": 7,
+          "onset": 7,
+          "depth": 3,
+          "appearance": 9,
+          "view": 2
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 51675,
+      "profile": {
+        "profile_id": 319054,
+        "axis_buckets": {
+          "length": 4,
+          "response": 5,
+          "onset": 0,
+          "depth": 9,
+          "appearance": 1,
+          "view": 3
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 29
+    },
+    {
+      "seed": 93748,
+      "profile": {
+        "profile_id": 495141,
+        "axis_buckets": {
+          "length": 1,
+          "response": 4,
+          "onset": 1,
+          "depth": 5,
+          "appearance": 9,
+          "view": 4
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 34948,
+      "profile": {
+        "profile_id": 857941,
+        "axis_buckets": {
+          "length": 1,
+          "response": 4,
+          "onset": 9,
+          "depth": 7,
+          "appearance": 5,
+          "view": 8
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 39
+    },
+    {
+      "seed": 71979,
+      "profile": {
+        "profile_id": 106430,
+        "axis_buckets": {
+          "length": 0,
+          "response": 3,
+          "onset": 4,
+          "depth": 6,
+          "appearance": 0,
+          "view": 1
+        }
+      },
+      "intervention_frame": 25,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 34186,
+      "profile": {
+        "profile_id": 823663,
+        "axis_buckets": {
+          "length": 3,
+          "response": 6,
+          "onset": 6,
+          "depth": 3,
+          "appearance": 2,
+          "view": 8
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 53403,
+      "profile": {
+        "profile_id": 3086,
+        "axis_buckets": {
+          "length": 6,
+          "response": 8,
+          "onset": 0,
+          "depth": 3,
+          "appearance": 0,
+          "view": 0
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 28
+    },
+    {
+      "seed": 60038,
+      "profile": {
+        "profile_id": 545651,
+        "axis_buckets": {
+          "length": 1,
+          "response": 5,
+          "onset": 6,
+          "depth": 5,
+          "appearance": 4,
+          "view": 5
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 52198,
+      "profile": {
+        "profile_id": 460691,
+        "axis_buckets": {
+          "length": 1,
+          "response": 9,
+          "onset": 6,
+          "depth": 0,
+          "appearance": 6,
+          "view": 4
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 11889,
+      "profile": {
+        "profile_id": 253720,
+        "axis_buckets": {
+          "length": 0,
+          "response": 2,
+          "onset": 7,
+          "depth": 3,
+          "appearance": 5,
+          "view": 2
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 16287,
+      "profile": {
+        "profile_id": 81482,
+        "axis_buckets": {
+          "length": 2,
+          "response": 8,
+          "onset": 4,
+          "depth": 1,
+          "appearance": 8,
+          "view": 0
+        }
+      },
+      "intervention_frame": 25,
+      "evidence_frame": 33
+    },
+    {
+      "seed": 90464,
+      "profile": {
+        "profile_id": 489145,
+        "axis_buckets": {
+          "length": 5,
+          "response": 4,
+          "onset": 1,
+          "depth": 9,
+          "appearance": 8,
+          "view": 4
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 12895,
+      "profile": {
+        "profile_id": 220234,
+        "axis_buckets": {
+          "length": 4,
+          "response": 3,
+          "onset": 2,
+          "depth": 0,
+          "appearance": 2,
+          "view": 2
+        }
+      },
+      "intervention_frame": 23,
+      "evidence_frame": 32
+    },
+    {
+      "seed": 19711,
+      "profile": {
+        "profile_id": 196138,
+        "axis_buckets": {
+          "length": 8,
+          "response": 3,
+          "onset": 1,
+          "depth": 6,
+          "appearance": 9,
+          "view": 1
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 44202,
+      "profile": {
+        "profile_id": 140367,
+        "axis_buckets": {
+          "length": 7,
+          "response": 6,
+          "onset": 3,
+          "depth": 0,
+          "appearance": 4,
+          "view": 1
+        }
+      },
+      "intervention_frame": 24,
+      "evidence_frame": 32
+    },
+    {
+      "seed": 55120,
+      "profile": {
+        "profile_id": 600009,
+        "axis_buckets": {
+          "length": 9,
+          "response": 0,
+          "onset": 0,
+          "depth": 0,
+          "appearance": 0,
+          "view": 6
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 92861,
+      "profile": {
+        "profile_id": 470988,
+        "axis_buckets": {
+          "length": 8,
+          "response": 8,
+          "onset": 9,
+          "depth": 0,
+          "appearance": 7,
+          "view": 4
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 37
+    },
+    {
+      "seed": 29224,
+      "profile": {
+        "profile_id": 529585,
+        "axis_buckets": {
+          "length": 5,
+          "response": 8,
+          "onset": 5,
+          "depth": 9,
+          "appearance": 2,
+          "view": 5
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 33
+    },
+    {
+      "seed": 54539,
+      "profile": {
+        "profile_id": 999070,
+        "axis_buckets": {
+          "length": 0,
+          "response": 7,
+          "onset": 0,
+          "depth": 9,
+          "appearance": 9,
+          "view": 9
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 29
+    },
+    {
+      "seed": 3898,
+      "profile": {
+        "profile_id": 972991,
+        "axis_buckets": {
+          "length": 1,
+          "response": 9,
+          "onset": 9,
+          "depth": 2,
+          "appearance": 7,
+          "view": 9
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 23986,
+      "profile": {
+        "profile_id": 49863,
+        "axis_buckets": {
+          "length": 3,
+          "response": 6,
+          "onset": 8,
+          "depth": 9,
+          "appearance": 4,
+          "view": 0
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 37
+    },
+    {
+      "seed": 98714,
+      "profile": {
+        "profile_id": 820895,
+        "axis_buckets": {
+          "length": 5,
+          "response": 9,
+          "onset": 8,
+          "depth": 0,
+          "appearance": 2,
+          "view": 8
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 14800,
+      "profile": {
+        "profile_id": 305929,
+        "axis_buckets": {
+          "length": 9,
+          "response": 2,
+          "onset": 9,
+          "depth": 5,
+          "appearance": 0,
+          "view": 3
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 52119,
+      "profile": {
+        "profile_id": 835090,
+        "axis_buckets": {
+          "length": 0,
+          "response": 9,
+          "onset": 0,
+          "depth": 5,
+          "appearance": 3,
+          "view": 8
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 29
+    },
+    {
+      "seed": 86271,
+      "profile": {
+        "profile_id": 284778,
+        "axis_buckets": {
+          "length": 8,
+          "response": 7,
+          "onset": 7,
+          "depth": 4,
+          "appearance": 8,
+          "view": 2
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 21103,
+      "profile": {
+        "profile_id": 219386,
+        "axis_buckets": {
+          "length": 6,
+          "response": 8,
+          "onset": 3,
+          "depth": 9,
+          "appearance": 1,
+          "view": 2
+        }
+      },
+      "intervention_frame": 24,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 73769,
+      "profile": {
+        "profile_id": 281440,
+        "axis_buckets": {
+          "length": 0,
+          "response": 4,
+          "onset": 4,
+          "depth": 1,
+          "appearance": 8,
+          "view": 2
+        }
+      },
+      "intervention_frame": 25,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 29138,
+      "profile": {
+        "profile_id": 848551,
+        "axis_buckets": {
+          "length": 1,
+          "response": 5,
+          "onset": 5,
+          "depth": 8,
+          "appearance": 4,
+          "view": 8
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 99573,
+      "profile": {
+        "profile_id": 623316,
+        "axis_buckets": {
+          "length": 6,
+          "response": 1,
+          "onset": 3,
+          "depth": 3,
+          "appearance": 2,
+          "view": 6
+        }
+      },
+      "intervention_frame": 24,
+      "evidence_frame": 33
+    },
+    {
+      "seed": 19328,
+      "profile": {
+        "profile_id": 163161,
+        "axis_buckets": {
+          "length": 1,
+          "response": 6,
+          "onset": 1,
+          "depth": 3,
+          "appearance": 6,
+          "view": 1
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 98825,
+      "profile": {
+        "profile_id": 699904,
+        "axis_buckets": {
+          "length": 4,
+          "response": 0,
+          "onset": 9,
+          "depth": 9,
+          "appearance": 9,
+          "view": 6
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 39
+    },
+    {
+      "seed": 32902,
+      "profile": {
+        "profile_id": 655667,
+        "axis_buckets": {
+          "length": 7,
+          "response": 6,
+          "onset": 6,
+          "depth": 5,
+          "appearance": 5,
+          "view": 6
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 68646,
+      "profile": {
+        "profile_id": 712403,
+        "axis_buckets": {
+          "length": 3,
+          "response": 0,
+          "onset": 4,
+          "depth": 2,
+          "appearance": 1,
+          "view": 7
+        }
+      },
+      "intervention_frame": 25,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 7654,
+      "profile": {
+        "profile_id": 716755,
+        "axis_buckets": {
+          "length": 5,
+          "response": 5,
+          "onset": 7,
+          "depth": 6,
+          "appearance": 1,
+          "view": 7
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 38380,
+      "profile": {
+        "profile_id": 35949,
+        "axis_buckets": {
+          "length": 9,
+          "response": 4,
+          "onset": 9,
+          "depth": 5,
+          "appearance": 3,
+          "view": 0
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 39688,
+      "profile": {
+        "profile_id": 394001,
+        "axis_buckets": {
+          "length": 1,
+          "response": 0,
+          "onset": 0,
+          "depth": 4,
+          "appearance": 9,
+          "view": 3
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 50274,
+      "profile": {
+        "profile_id": 224535,
+        "axis_buckets": {
+          "length": 5,
+          "response": 3,
+          "onset": 5,
+          "depth": 4,
+          "appearance": 2,
+          "view": 2
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 52317,
+      "profile": {
+        "profile_id": 403052,
+        "axis_buckets": {
+          "length": 2,
+          "response": 5,
+          "onset": 0,
+          "depth": 3,
+          "appearance": 0,
+          "view": 4
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 29
+    },
+    {
+      "seed": 57236,
+      "profile": {
+        "profile_id": 356613,
+        "axis_buckets": {
+          "length": 3,
+          "response": 1,
+          "onset": 6,
+          "depth": 6,
+          "appearance": 5,
+          "view": 3
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 20279,
+      "profile": {
+        "profile_id": 694130,
+        "axis_buckets": {
+          "length": 0,
+          "response": 3,
+          "onset": 1,
+          "depth": 4,
+          "appearance": 9,
+          "view": 6
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 37815,
+      "profile": {
+        "profile_id": 561714,
+        "axis_buckets": {
+          "length": 4,
+          "response": 1,
+          "onset": 7,
+          "depth": 1,
+          "appearance": 6,
+          "view": 5
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 36413,
+      "profile": {
+        "profile_id": 459276,
+        "axis_buckets": {
+          "length": 6,
+          "response": 7,
+          "onset": 2,
+          "depth": 9,
+          "appearance": 5,
+          "view": 4
+        }
+      },
+      "intervention_frame": 23,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 7134,
+      "profile": {
+        "profile_id": 598875,
+        "axis_buckets": {
+          "length": 5,
+          "response": 7,
+          "onset": 8,
+          "depth": 8,
+          "appearance": 9,
+          "view": 5
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 78689,
+      "profile": {
+        "profile_id": 242920,
+        "axis_buckets": {
+          "length": 0,
+          "response": 2,
+          "onset": 9,
+          "depth": 2,
+          "appearance": 4,
+          "view": 2
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 40
+    },
+    {
+      "seed": 8327,
+      "profile": {
+        "profile_id": 46242,
+        "axis_buckets": {
+          "length": 2,
+          "response": 4,
+          "onset": 2,
+          "depth": 6,
+          "appearance": 4,
+          "view": 0
+        }
+      },
+      "intervention_frame": 23,
+      "evidence_frame": 32
+    },
+    {
+      "seed": 73518,
+      "profile": {
+        "profile_id": 293771,
+        "axis_buckets": {
+          "length": 1,
+          "response": 7,
+          "onset": 7,
+          "depth": 3,
+          "appearance": 9,
+          "view": 2
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 25248,
+      "profile": {
+        "profile_id": 43641,
+        "axis_buckets": {
+          "length": 1,
+          "response": 4,
+          "onset": 6,
+          "depth": 3,
+          "appearance": 4,
+          "view": 0
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 94740,
+      "profile": {
+        "profile_id": 350789,
+        "axis_buckets": {
+          "length": 9,
+          "response": 8,
+          "onset": 7,
+          "depth": 0,
+          "appearance": 5,
+          "view": 3
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 87418,
+      "profile": {
+        "profile_id": 367871,
+        "axis_buckets": {
+          "length": 1,
+          "response": 7,
+          "onset": 8,
+          "depth": 7,
+          "appearance": 6,
+          "view": 3
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 37
+    },
+    {
+      "seed": 78664,
+      "profile": {
+        "profile_id": 44945,
+        "axis_buckets": {
+          "length": 5,
+          "response": 4,
+          "onset": 9,
+          "depth": 4,
+          "appearance": 4,
+          "view": 0
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 62570,
+      "profile": {
+        "profile_id": 596559,
+        "axis_buckets": {
+          "length": 9,
+          "response": 5,
+          "onset": 5,
+          "depth": 6,
+          "appearance": 9,
+          "view": 5
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 67773,
+      "profile": {
+        "profile_id": 799116,
+        "axis_buckets": {
+          "length": 6,
+          "response": 1,
+          "onset": 1,
+          "depth": 9,
+          "appearance": 9,
+          "view": 7
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 95685,
+      "profile": {
+        "profile_id": 834244,
+        "axis_buckets": {
+          "length": 4,
+          "response": 4,
+          "onset": 2,
+          "depth": 4,
+          "appearance": 3,
+          "view": 8
+        }
+      },
+      "intervention_frame": 23,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 94081,
+      "profile": {
+        "profile_id": 132168,
+        "axis_buckets": {
+          "length": 8,
+          "response": 6,
+          "onset": 1,
+          "depth": 2,
+          "appearance": 3,
+          "view": 1
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 37921,
+      "profile": {
+        "profile_id": 401128,
+        "axis_buckets": {
+          "length": 8,
+          "response": 2,
+          "onset": 1,
+          "depth": 1,
+          "appearance": 0,
+          "view": 4
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 18811,
+      "profile": {
+        "profile_id": 69038,
+        "axis_buckets": {
+          "length": 8,
+          "response": 3,
+          "onset": 0,
+          "depth": 9,
+          "appearance": 6,
+          "view": 0
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 29
+    },
+    {
+      "seed": 29022,
+      "profile": {
+        "profile_id": 929947,
+        "axis_buckets": {
+          "length": 7,
+          "response": 4,
+          "onset": 9,
+          "depth": 9,
+          "appearance": 2,
+          "view": 9
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 29595,
+      "profile": {
+        "profile_id": 467534,
+        "axis_buckets": {
+          "length": 4,
+          "response": 3,
+          "onset": 5,
+          "depth": 7,
+          "appearance": 6,
+          "view": 4
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 73039,
+      "profile": {
+        "profile_id": 500570,
+        "axis_buckets": {
+          "length": 0,
+          "response": 7,
+          "onset": 5,
+          "depth": 0,
+          "appearance": 0,
+          "view": 5
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 43504,
+      "profile": {
+        "profile_id": 612905,
+        "axis_buckets": {
+          "length": 5,
+          "response": 0,
+          "onset": 9,
+          "depth": 2,
+          "appearance": 1,
+          "view": 6
+        }
+      },
+      "intervention_frame": 30,
+      "evidence_frame": 40
+    },
+    {
+      "seed": 18774,
+      "profile": {
+        "profile_id": 776035,
+        "axis_buckets": {
+          "length": 5,
+          "response": 3,
+          "onset": 0,
+          "depth": 6,
+          "appearance": 7,
+          "view": 7
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 29
+    },
+    {
+      "seed": 31623,
+      "profile": {
+        "profile_id": 527266,
+        "axis_buckets": {
+          "length": 6,
+          "response": 6,
+          "onset": 2,
+          "depth": 7,
+          "appearance": 2,
+          "view": 5
+        }
+      },
+      "intervention_frame": 23,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 26366,
+      "profile": {
+        "profile_id": 897083,
+        "axis_buckets": {
+          "length": 3,
+          "response": 8,
+          "onset": 0,
+          "depth": 7,
+          "appearance": 9,
+          "view": 8
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 28
+    },
+    {
+      "seed": 61056,
+      "profile": {
+        "profile_id": 607193,
+        "axis_buckets": {
+          "length": 3,
+          "response": 9,
+          "onset": 1,
+          "depth": 7,
+          "appearance": 0,
+          "view": 6
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 29
+    },
+    {
+      "seed": 1952,
+      "profile": {
+        "profile_id": 562617,
+        "axis_buckets": {
+          "length": 7,
+          "response": 1,
+          "onset": 6,
+          "depth": 2,
+          "appearance": 6,
+          "view": 5
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 35064,
+      "profile": {
+        "profile_id": 776545,
+        "axis_buckets": {
+          "length": 5,
+          "response": 4,
+          "onset": 5,
+          "depth": 6,
+          "appearance": 7,
+          "view": 7
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 28605,
+      "profile": {
+        "profile_id": 627724,
+        "axis_buckets": {
+          "length": 4,
+          "response": 2,
+          "onset": 7,
+          "depth": 7,
+          "appearance": 2,
+          "view": 6
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 37
+    },
+    {
+      "seed": 9394,
+      "profile": {
+        "profile_id": 495815,
+        "axis_buckets": {
+          "length": 5,
+          "response": 1,
+          "onset": 8,
+          "depth": 5,
+          "appearance": 9,
+          "view": 4
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 89050,
+      "profile": {
+        "profile_id": 291679,
+        "axis_buckets": {
+          "length": 9,
+          "response": 7,
+          "onset": 6,
+          "depth": 1,
+          "appearance": 9,
+          "view": 2
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 16748,
+      "profile": {
+        "profile_id": 732141,
+        "axis_buckets": {
+          "length": 1,
+          "response": 4,
+          "onset": 1,
+          "depth": 2,
+          "appearance": 3,
+          "view": 7
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 38231,
+      "profile": {
+        "profile_id": 856018,
+        "axis_buckets": {
+          "length": 8,
+          "response": 1,
+          "onset": 0,
+          "depth": 6,
+          "appearance": 5,
+          "view": 8
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 36222,
+      "profile": {
+        "profile_id": 946747,
+        "axis_buckets": {
+          "length": 7,
+          "response": 4,
+          "onset": 7,
+          "depth": 6,
+          "appearance": 4,
+          "view": 9
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 6449,
+      "profile": {
+        "profile_id": 174360,
+        "axis_buckets": {
+          "length": 0,
+          "response": 6,
+          "onset": 3,
+          "depth": 4,
+          "appearance": 7,
+          "view": 1
+        }
+      },
+      "intervention_frame": 24,
+      "evidence_frame": 32
+    },
+    {
+      "seed": 49138,
+      "profile": {
+        "profile_id": 228551,
+        "axis_buckets": {
+          "length": 1,
+          "response": 5,
+          "onset": 5,
+          "depth": 8,
+          "appearance": 2,
+          "view": 2
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 34
+    },
+    {
+      "seed": 83684,
+      "profile": {
+        "profile_id": 798325,
+        "axis_buckets": {
+          "length": 5,
+          "response": 2,
+          "onset": 3,
+          "depth": 8,
+          "appearance": 9,
+          "view": 7
+        }
+      },
+      "intervention_frame": 24,
+      "evidence_frame": 33
+    },
+    {
+      "seed": 37500,
+      "profile": {
+        "profile_id": 67229,
+        "axis_buckets": {
+          "length": 9,
+          "response": 2,
+          "onset": 2,
+          "depth": 7,
+          "appearance": 6,
+          "view": 0
+        }
+      },
+      "intervention_frame": 23,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 28497,
+      "profile": {
+        "profile_id": 772472,
+        "axis_buckets": {
+          "length": 2,
+          "response": 7,
+          "onset": 4,
+          "depth": 2,
+          "appearance": 7,
+          "view": 7
+        }
+      },
+      "intervention_frame": 25,
+      "evidence_frame": 33
+    },
+    {
+      "seed": 46123,
+      "profile": {
+        "profile_id": 352766,
+        "axis_buckets": {
+          "length": 6,
+          "response": 6,
+          "onset": 7,
+          "depth": 2,
+          "appearance": 5,
+          "view": 3
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 14347,
+      "profile": {
+        "profile_id": 718622,
+        "axis_buckets": {
+          "length": 2,
+          "response": 2,
+          "onset": 6,
+          "depth": 8,
+          "appearance": 1,
+          "view": 7
+        }
+      },
+      "intervention_frame": 27,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 2885,
+      "profile": {
+        "profile_id": 951044,
+        "axis_buckets": {
+          "length": 4,
+          "response": 4,
+          "onset": 0,
+          "depth": 1,
+          "appearance": 5,
+          "view": 9
+        }
+      },
+      "intervention_frame": 21,
+      "evidence_frame": 30
+    },
+    {
+      "seed": 65410,
+      "profile": {
+        "profile_id": 86519,
+        "axis_buckets": {
+          "length": 9,
+          "response": 1,
+          "onset": 5,
+          "depth": 6,
+          "appearance": 8,
+          "view": 0
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 35
+    },
+    {
+      "seed": 19188,
+      "profile": {
+        "profile_id": 54501,
+        "axis_buckets": {
+          "length": 1,
+          "response": 0,
+          "onset": 5,
+          "depth": 4,
+          "appearance": 5,
+          "view": 0
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 36
+    },
+    {
+      "seed": 1988,
+      "profile": {
+        "profile_id": 847701,
+        "axis_buckets": {
+          "length": 1,
+          "response": 0,
+          "onset": 7,
+          "depth": 7,
+          "appearance": 4,
+          "view": 8
+        }
+      },
+      "intervention_frame": 28,
+      "evidence_frame": 38
+    },
+    {
+      "seed": 40319,
+      "profile": {
+        "profile_id": 390890,
+        "axis_buckets": {
+          "length": 0,
+          "response": 9,
+          "onset": 8,
+          "depth": 0,
+          "appearance": 9,
+          "view": 3
+        }
+      },
+      "intervention_frame": 29,
+      "evidence_frame": 37
+    },
+    {
+      "seed": 48903,
+      "profile": {
+        "profile_id": 367586,
+        "axis_buckets": {
+          "length": 6,
+          "response": 8,
+          "onset": 5,
+          "depth": 7,
+          "appearance": 6,
+          "view": 3
+        }
+      },
+      "intervention_frame": 26,
+      "evidence_frame": 33
+    },
+    {
+      "seed": 92352,
+      "profile": {
+        "profile_id": 440217,
+        "axis_buckets": {
+          "length": 7,
+          "response": 1,
+          "onset": 2,
+          "depth": 0,
+          "appearance": 4,
+          "view": 4
+        }
+      },
+      "intervention_frame": 23,
+      "evidence_frame": 32
+    },
+    {
+      "seed": 49464,
+      "profile": {
+        "profile_id": 810145,
+        "axis_buckets": {
+          "length": 5,
+          "response": 4,
+          "onset": 1,
+          "depth": 0,
+          "appearance": 1,
+          "view": 8
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 31
+    },
+    {
+      "seed": 86661,
+      "profile": {
+        "profile_id": 373188,
+        "axis_buckets": {
+          "length": 8,
+          "response": 8,
+          "onset": 1,
+          "depth": 3,
+          "appearance": 7,
+          "view": 3
+        }
+      },
+      "intervention_frame": 22,
+      "evidence_frame": 29
+    }
+  ]
+}

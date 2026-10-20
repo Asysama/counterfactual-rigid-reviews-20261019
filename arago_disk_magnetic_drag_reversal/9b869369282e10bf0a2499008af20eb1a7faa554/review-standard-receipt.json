@@ -1,0 +1,93 @@
+{
+  "dev": "27bdebdf40330ce4da512efab5484308a5b8c280",
+  "files": [
+    {
+      "path": ".agents/skills/review-counterfactual-generator/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8871f1fa92c4380dffa5f411d2a1c9364cc38e5",
+      "size": 16301,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/a8871f1fa92c4380dffa5f411d2a1c9364cc38e5"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13e79df3e05295379bd32f63190fef67c1b0d4a7",
+      "size": 461,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/13e79df3e05295379bd32f63190fef67c1b0d4a7"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/assets/review-report-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bae1ea2bce626354ae43fff83a12d28a2428bd2f",
+      "size": 6339,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/bae1ea2bce626354ae43fff83a12d28a2428bd2f"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/references/review-gates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0a65b2e2dbb20af17eabd4257e9bf5efb8241ff",
+      "size": 18004,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/c0a65b2e2dbb20af17eabd4257e9bf5efb8241ff"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/references/runtime-provenance-workflow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799b26f9748ecb5a3281230d342b0515d1fd1cf0",
+      "size": 6575,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/799b26f9748ecb5a3281230d342b0515d1fd1cf0"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/references/sara-visual-feedback.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "937e3590daa6f7a01945d0ded6ba8ab840a6311f",
+      "size": 6841,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/937e3590daa6f7a01945d0ded6ba8ab840a6311f"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/references/scale-readiness-contract.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5473b7e53ae7528fcdfc1f6888ae1429f9e9f1b",
+      "size": 6179,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/c5473b7e53ae7528fcdfc1f6888ae1429f9e9f1b"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/references/simulator-review-profiles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24658bd498bd443faec6c011330af20bf8605e9",
+      "size": 2963,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/d24658bd498bd443faec6c011330af20bf8605e9"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/scripts/audit_runtime_witness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77c45ecf7700a1f9c5fc36524bcbf33557d20b72",
+      "size": 5309,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/77c45ecf7700a1f9c5fc36524bcbf33557d20b72"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/scripts/build_runtime_witness_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f16df03b2c97cc0fcc8f2364ec4be8e9b19de505",
+      "size": 4097,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/f16df03b2c97cc0fcc8f2364ec4be8e9b19de505"
+    },
+    {
+      "path": ".agents/skills/review-counterfactual-generator/scripts/run_with_provenance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ade36c2f6b0bb22514d7c6c46d72812b0749414",
+      "size": 8521,
+      "url": "https://api.github.com/repos/hipo-dev/counterfactual-data/git/blobs/7ade36c2f6b0bb22514d7c6c46d72812b0749414"
+    }
+  ]
+}

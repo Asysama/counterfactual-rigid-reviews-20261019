@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "all formal decoded frames, saved state and independent mechanics; visual review and identity replay separate",
+  "cases": [
+    {
+      "case_id": "sliding_supports_weighted_rod_balance_failure_00000042",
+      "head_sha": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 32,
+      "evidence": 63,
+      "mask_pixels_at_evidence": 64156,
+      "min_mask_pixels_active": 58286,
+      "minimum_adjacent_rgb_changed_pixels": 8937,
+      "mechanics": {
+        "true_min_platform_clearance": 1.3099899694945973,
+        "counterfactual_min_platform_clearance": -0.0013626968906621517,
+        "native_planar_supported_balance_and_tip": true
+      }
+    },
+    {
+      "case_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+      "head_sha": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+      "status": "PASS",
+      "decoded_frames_per_stream": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "prefix_exact": true,
+      "mask_binary": true,
+      "overlay_exact": true,
+      "first_changed": 37,
+      "evidence": 64,
+      "mask_pixels_at_evidence": 55693,
+      "min_mask_pixels_active": 53341,
+      "minimum_adjacent_rgb_changed_pixels": 9492,
+      "mechanics": {
+        "true_min_platform_clearance": 1.3099900079920144,
+        "counterfactual_min_platform_clearance": -0.0012838398622445624,
+        "native_planar_supported_balance_and_tip": true
+      }
+    }
+  ]
+}

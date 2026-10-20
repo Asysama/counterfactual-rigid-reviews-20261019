@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "comparison": "all four streams, exact 120 raw and decoded frame hashes",
+  "source_case": "slotted_link_lost_motion_premature_transfer_00000042",
+  "reproduced_case": "slotted_link_lost_motion_premature_transfer_00000042"
+}

@@ -1,0 +1,15 @@
+# sliding_supports_weighted_rod_balance_failure: mechanics and audit contract
+
+Official unmodified PyBullet 3.2.7 integrates rigid contact, gravity and friction with 20 steps per recorded frame (dt=1/480 s), after a shared 0.5 s settling interval outside the video. An unpowered serial X/Z/Y joint chain retains the planar symmetry of the experiment; all three motors are explicitly disabled. A fixed child link attaches the real ballast collision cylinder and its mass to the rod. Moving massless pads receive identical smooth positions and velocities in both branches. True is supported and converges under the shifted COM. CF adds only one bounded horizontal force pulse with no visible energy source; subsequent separation, sliding and tipping remain native contact dynamics. This force, rather than altered friction or an authored tip animation, is the declared physical error. The renderer reads saved rod-link poses and pad positions. The rendered platform has matching collision geometry; the ground is also collidable. The rod has zero prescribed pose after settling. The planar idealization is explicit and is not a claim of full unconstrained 3D dynamics.
+
+## Source of motion
+Official unmodified PyBullet 3.2.7 planar rigid-body/contact integration using unpowered X/Z translation and Y rotation joints with stored poses and contact evidence; Blender only renders those poses. Moving massless pads have matched prescribed trajectories and velocities. CF adds one explicit unpowered horizontal force after closure begins. Subsequent sliding, loss of support and tipping use the unchanged solver. The planar idealization suppresses out-of-plane roundoff; the three passive joints have disabled motors and add no prescribed force. This is not a claim that unusual friction alone is the CF operator.
+
+## Temporal/causal contract
+The native output has 120 samples at t=f/24 seconds. Onset is sampled independently from geometry and response. All ordinary parameters, motor/support input trajectories and camera motions are shared. The first changed RGB frame is discovered from actual pixels; the mask begins there. The CF operator is unpowered_horizontal_force_during_support_closure. Its consequences do not count as new independent operators.
+
+## Static and rendered scale evidence
+The 1,000,000 finite recipes vary four primary physical axes and two nuisance axes. 100,000 unique validated recipes is a CPU-only static target, not a claim of 100,000 rendered outputs. Rendered one-axis perturbations must show real image changes. Corner trajectories and every submitted formal seed must complete the stated outcomes. Failures must stop generation rather than be accepted by metadata alone.
+
+## Required review evidence
+Two native exact-head seed cases; all four decoded media streams per case; complete object-only mask replay; mechanics checks independent of the generator predicate; prompt and complete-motion inspection; native edge checks; runtime witness and case mapping; all artifact hashes; public playback and publication receipts. Source correctness and scale readiness are reported separately. No PASS is implied by this design document.

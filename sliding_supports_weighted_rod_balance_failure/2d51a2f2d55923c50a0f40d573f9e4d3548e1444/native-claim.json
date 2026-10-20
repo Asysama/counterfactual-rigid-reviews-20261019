@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "claim_scope": "Official PyBullet 3.2.7 integrates contact/gravity/friction and a single CF force; passive planar joints with motors disabled. Rendering replays the saved rod-link poses. The support pads are prescribed, not free dynamics.",
+  "head_sha": "2d51a2f2d55923c50a0f40d573f9e4d3548e1444",
+  "source_sha256": "15ea2830bdc55cf6121b518e25fdd56036d53721a6ad75635675f19d9b9e4ec1",
+  "source_authority_review": "After the common settling interval, body poses are obtained only from getLinkState after stepSimulation; resetBasePositionAndOrientation and resetBaseVelocity target pads, not the rod. Rod joint motors have zero force. One horizontal CF force pulse is the only branch condition.",
+  "cases": [
+    {
+      "case_id": "sliding_supports_weighted_rod_balance_failure_00000042",
+      "branch": "true",
+      "exact_state_fields": [
+        "pad_x",
+        "position",
+        "quaternion",
+        "support_force",
+        "time",
+        "velocity"
+      ],
+      "recorded_samples": 120,
+      "solver_steps_per_frame": 20,
+      "internal_dt": 0.0020833333333333333,
+      "physical_seconds_per_video_second": 1.0,
+      "exact_native_resimulation": true
+    },
+    {
+      "case_id": "sliding_supports_weighted_rod_balance_failure_00000042",
+      "branch": "counterfactual",
+      "exact_state_fields": [
+        "pad_x",
+        "position",
+        "quaternion",
+        "support_force",
+        "time",
+        "velocity"
+      ],
+      "recorded_samples": 120,
+      "solver_steps_per_frame": 20,
+      "internal_dt": 0.0020833333333333333,
+      "physical_seconds_per_video_second": 1.0,
+      "exact_native_resimulation": true
+    },
+    {
+      "case_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+      "branch": "true",
+      "exact_state_fields": [
+        "pad_x",
+        "position",
+        "quaternion",
+        "support_force",
+        "time",
+        "velocity"
+      ],
+      "recorded_samples": 120,
+      "solver_steps_per_frame": 20,
+      "internal_dt": 0.0020833333333333333,
+      "physical_seconds_per_video_second": 1.0,
+      "exact_native_resimulation": true
+    },
+    {
+      "case_id": "sliding_supports_weighted_rod_balance_failure_00000098",
+      "branch": "counterfactual",
+      "exact_state_fields": [
+        "pad_x",
+        "position",
+        "quaternion",
+        "support_force",
+        "time",
+        "velocity"
+      ],
+      "recorded_samples": 120,
+      "solver_steps_per_frame": 20,
+      "internal_dt": 0.0020833333333333333,
+      "physical_seconds_per_video_second": 1.0,
+      "exact_native_resimulation": true
+    }
+  ]
+}
