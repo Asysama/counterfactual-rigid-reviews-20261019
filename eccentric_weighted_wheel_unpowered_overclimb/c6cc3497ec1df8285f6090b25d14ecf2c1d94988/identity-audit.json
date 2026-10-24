@@ -1,0 +1,436 @@
+{
+  "status": "PASS",
+  "scope": "all 120 native masks and both-branch target framing, independent name whitelist; shared source geometry replay",
+  "cases": [
+    {
+      "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000042",
+      "head_sha": "c6cc3497ec1df8285f6090b25d14ecf2c1d94988",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.1937711536884308,
+                0.44569823145866394
+              ],
+              [
+                0.3396676182746887,
+                0.5867660641670227
+              ]
+            ],
+            [
+              [
+                0.1937711536884308,
+                0.44569823145866394
+              ],
+              [
+                0.3396676182746887,
+                0.5867660641670227
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 52,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.3720582127571106,
+                0.4652279317378998
+              ],
+              [
+                0.5086209177970886,
+                0.6059557795524597
+              ]
+            ],
+            [
+              [
+                0.3716287612915039,
+                0.4651812016963959
+              ],
+              [
+                0.5081941485404968,
+                0.6059097051620483
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 79,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.3437141478061676,
+                0.4621817469596863
+              ],
+              [
+                0.481106162071228,
+                0.6029230356216431
+              ]
+            ],
+            [
+              [
+                0.4834088683128357,
+                0.4775267243385315
+              ],
+              [
+                0.620943009853363,
+                0.6180683374404907
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 80,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.3470873236656189,
+                0.4625492990016937
+              ],
+              [
+                0.4843464195728302,
+                0.6032847762107849
+              ]
+            ],
+            [
+              [
+                0.4862675666809082,
+                0.47784659266471863
+              ],
+              [
+                0.6238700151443481,
+                0.6183833479881287
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.3544532358646393,
+                0.46339836716651917
+              ],
+              [
+                0.4914208650588989,
+                0.6040830612182617
+              ]
+            ],
+            [
+              [
+                0.5943614840507507,
+                0.49025407433509827
+              ],
+              [
+                0.7378140687942505,
+                0.6306142807006836
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "eccentric_weighted_wheel_unpowered_overclimb_00000098",
+      "head_sha": "c6cc3497ec1df8285f6090b25d14ecf2c1d94988",
+      "decoded_mask_identity_frames": 120,
+      "fully_visible_target_both_branches_all_frames": true,
+      "no_fonts": true,
+      "shadows_disabled": true,
+      "selected_frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.22579406201839447,
+                0.4558853209018707
+              ],
+              [
+                0.3324163854122162,
+                0.5603743195533752
+              ]
+            ],
+            [
+              [
+                0.22579406201839447,
+                0.4558853209018707
+              ],
+              [
+                0.3324163854122162,
+                0.5603743195533752
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 54,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.3506898581981659,
+                0.4645765423774719
+              ],
+              [
+                0.4534318447113037,
+                0.5704942941665649
+              ]
+            ],
+            [
+              [
+                0.3507775068283081,
+                0.4645825922489166
+              ],
+              [
+                0.45351672172546387,
+                0.5705013275146484
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 72,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.31279751658439636,
+                0.46197986602783203
+              ],
+              [
+                0.41672593355178833,
+                0.5674664974212646
+              ]
+            ],
+            [
+              [
+                0.41445082426071167,
+                0.46897009015083313
+              ],
+              [
+                0.5155311226844788,
+                0.5756221413612366
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 73,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.312738835811615,
+                0.4619770050048828
+              ],
+              [
+                0.4166690707206726,
+                0.5674630999565125
+              ]
+            ],
+            [
+              [
+                0.41680657863616943,
+                0.4691323935985565
+              ],
+              [
+                0.5178662538528442,
+                0.5758117437362671
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "target_axle",
+            "target_counterweight_arm",
+            "target_counterweight_bolt",
+            "target_fixed_ballast",
+            "target_hub_boss",
+            "target_rubber_tread",
+            "target_spoke_0",
+            "target_spoke_1",
+            "target_spoke_2",
+            "target_spoke_3",
+            "target_spoke_4",
+            "target_spoke_5",
+            "target_wheel_rim"
+          ],
+          "true_cf_bounds": [
+            [
+              [
+                0.33080506324768066,
+                0.46324995160102844
+              ],
+              [
+                0.43417230248451233,
+                0.5689509510993958
+              ]
+            ],
+            [
+              [
+                0.5246573090553284,
+                0.476545125246048
+              ],
+              [
+                0.6253693699836731,
+                0.5844892859458923
+              ]
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}
