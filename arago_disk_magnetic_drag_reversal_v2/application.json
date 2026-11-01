@@ -1,0 +1,8 @@
+{
+  "generator_name": "arago_disk_magnetic_drag_reversal",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/727",
+  "head_sha": "9b869369282e10bf0a2499008af20eb1a7faa554",
+  "review_url": "https://asysama.github.io/counterfactual-rigid-reviews-20261019/arago_disk_magnetic_drag_reversal_v2/9b869369282e10bf0a2499008af20eb1a7faa554/",
+  "note": "当前完整 SHA 的 seed42/98 两例已按 review-counterfactual-generator 完成贡献者自检 PASS：原生2048×2048、24fps、120帧；独立物理、逐帧配对、二值遮罩、红色叠加、几何、运行见证与复现检查通过，120 帧四路帧哈希在记录态复现中完全一致。100000静态配方、六轴渲染及16物理边界组合检查通过，不代表已渲染十万例。全部8路浏览副本已在Chrome实际播放至5秒并定位至4秒；页面提供全部正式原片。提交前已重新核对PR完整SHA、公开材料和全部视频网址可访问。模型为等效的约化偏航动力学（阻力符号反号）：铜盘与磁铁之间气隙保持，中央环形夹与两侧磁臂有有限重叠；不声称电磁场仿真或标定材料模型。用户已确认本版本并授权提交，请Sara独立审核。",
+  "self_check_complete": true
+}

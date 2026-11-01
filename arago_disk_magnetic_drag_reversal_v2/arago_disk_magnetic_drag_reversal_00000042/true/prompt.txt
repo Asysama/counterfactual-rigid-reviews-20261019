@@ -1,0 +1,1 @@
+A motor turns a copper disk beneath a freely rotating bar magnet mounted on a separate overhead pivot. An air gap separates the disk and magnet. The magnet gradually rotates in the same direction as the disk through electromagnetic induction.

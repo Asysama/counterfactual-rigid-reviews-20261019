@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "arago_disk_magnetic_drag_reversal",
+  "case_set": "native-42-98-final-clamp",
+  "commit": "9b869369282e10bf0a2499008af20eb1a7faa554",
+  "artifact_count": 79,
+  "accepted_case_count": 2,
+  "failures": []
+}

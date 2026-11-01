@@ -1,0 +1,147 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      0.9200000166893005
+    ],
+    "pos": [
+      0.6580944657325745,
+      -5.400000095367432,
+      4.429999828338623
+    ],
+    "projection": "perspective"
+  },
+  "category": "arago_disk",
+  "descriptions": {
+    "counterfactual": "A motor turns a copper disk beneath a freely rotating bar magnet mounted on a separate overhead pivot. An air gap separates the disk and magnet. Without another drive, the magnet instead rotates continuously opposite to the disk.",
+    "true": "A motor turns a copper disk beneath a freely rotating bar magnet mounted on a separate overhead pivot. An air gap separates the disk and magnet. The magnet gradually rotates in the same direction as the disk through electromagnetic induction."
+  },
+  "evidence_frame": 43,
+  "first_changed_frame": 28,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench stored-state replay",
+    "git": "9b869369282e10bf0a2499008af20eb1a7faa554",
+    "motion_authority": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+    "source_hashes": {
+      "engine/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "engine/geometry.py": "3993ed21626b19ad94bc99fe105a70818b63d6292bf22f9f33f2ec935f4b134b",
+      "engine/media.py": "15f64f5bf7beeb21363e29cdf5a872338dec1d7f932bca1cee2619b239eff133",
+      "engine/operators.py": "d01167fe493628a15910565e904a6921c4fcdbf80aba7802fb02c90586256a30",
+      "engine/run.py": "5523028649ec4fd0ca98f07ad9944bb2e0814c4e7c282387948e2d715d4663a5",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "f3a029114b1f1f9a0654c83353330f2fc97d692e26c8ca2eac8345f5fd368540",
+      "src/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "src/helpers.py": "bc7f4fb8a75d68ab426173c7cadc460e5c3354d619497f599bf4930edb94df0b",
+      "src/phenomenon.py": "5ee310e94a20ea7878eaa4ebfece1e386cb93a2c8f3b8af20779594d94b52df6",
+      "src/scaling.py": "95264aeb076c93cb130326ee8224836fdabef2fc887e4655045a26c1fec71c90",
+      "src/violation.py": "eb38668826ffb62c4e96fd6c5e9310b46abf6875c3108b1760ff326424839516",
+      "src/visual.py": "815d963f6c363bcf1075dbe62880f83206e58c7b79ded992200b1b459c0bbf28",
+      "tests/test_design.py": "22946463f0dc48db10065c36fd08ea4b54b6cd53e8637c30e59206a6020c24e5"
+    }
+  },
+  "intervention_frame": 28,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "target_central_clamp",
+      "target_magnet_0",
+      "target_magnet_1",
+      "target_pole_mark_0",
+      "target_pole_mark_1"
+    ],
+    "target_ontology": [
+      "the rotating bar magnet and its rotating central clamp"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 28,
+  "onset_frame": 28,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_reverse_eddy_current_drag_torque/mask.mp4",
+      "mask_overlay": "counterfactual_reverse_eddy_current_drag_torque/mask_overlay.mp4",
+      "prompt": "counterfactual_reverse_eddy_current_drag_torque/prompt.txt",
+      "trajectory": "counterfactual_reverse_eddy_current_drag_torque/trajectory.npz",
+      "video": "counterfactual_reverse_eddy_current_drag_torque/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "arago_disk_magnetic_drag_reversal",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 8,
+      "bearing_damping": 0.06098400000000004,
+      "camera_elevation_ratio": 0.65,
+      "coupling": 0.020328000000000013,
+      "depth": 0.75,
+      "disk_radius": 0.8528,
+      "drive_ramp": 0.55,
+      "drive_speed": 2.9120000000000004,
+      "gravity": 9.81,
+      "length": 1.04,
+      "magnet_inertia": 0.011343750000000005,
+      "magnet_length": 0.8250000000000001,
+      "model": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+      "onset": 27,
+      "response": 1.12,
+      "solver_steps_per_frame": 20,
+      "time_scale": 1.0,
+      "view": 8
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "A motor turns a copper disk beneath a freely rotating bar magnet mounted on a separate overhead pivot. An air gap separates the disk and magnet. The magnet gradually rotates in the same direction as the disk through electromagnetic induction.",
+        "A motor turns a copper disk beneath a freely rotating bar magnet mounted on a separate overhead pivot. An air gap separates the disk and magnet. Without another drive, the magnet instead rotates continuously opposite to the disk."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "A motor turns a copper disk beneath a freely rotating bar magnet mounted on a separate overhead pivot. An air gap separates the disk and magnet. The magnet gradually rotates in the same direction as the disk through electromagnetic induction."
+        ],
+        "violation_if_true": [
+          "A motor turns a copper disk beneath a freely rotating bar magnet mounted on a separate overhead pivot. An air gap separates the disk and magnet. Without another drive, the magnet instead rotates continuously opposite to the disk."
+        ]
+      },
+      "violation_types": [
+        "reverse_eddy_current_drag_torque"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "arago_disk_magnetic_drag_reversal_00000098",
+  "timebase": {
+    "internal_dt": 0.0020833333333333333,
+    "internal_substeps": 20,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "Quasistatic eddy-current drag torque k*(disk_speed-magnet_speed) and ordinary positive viscous pivot resistance d*magnet_speed. d=3k keeps both signs bounded. Only k changes sign in CF. Ambient magnetic alignment is neglected; this is a phenomenological induction model, not a field solver or native Blender dynamics.",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "reverse_eddy_current_drag_torque"
+}
